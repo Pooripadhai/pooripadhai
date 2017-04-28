@@ -303,6 +303,7 @@
 	  <a href="credits.html" target="_blank">Site Credits</a>
     </div>
     <div class="col-sm-7 slideanim">
+	    <form name="contactform" method="post" action="contact.php">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -311,12 +312,13 @@
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
       </div>
+		    </form>
     </div>
   </div>
   <div style="padding-top:3%"></div>
