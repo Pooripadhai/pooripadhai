@@ -1,0 +1,4 @@
+user-agent: googlebot
+disallow:
+
+sitemap: http://www.pooripadhai.com/sitemap.xml
