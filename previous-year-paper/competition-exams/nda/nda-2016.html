@@ -81,7 +81,15 @@
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=1886983901556004";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -158,10 +166,7 @@
  
 	   
  <br>
-       
-	   <iframe class="comment" src="https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FPooriPadhai9%2Fposts%2F409236956136120%3Fcomment_id%3D409237732802709%26comment_tracking%3D%257B%2522tn%2522%253A%2522R%2522%257D&width=300&include_parent=false&height=153&appId"
- width="180" height="260" style="border:;overflow:hidden; padding-right:12px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
- <br>
+      <div class="fb-comments" data-href="https://pooripadhai.com" data-width="50" data-numposts="5"></div><br>
 
  
  
