@@ -7,7 +7,7 @@
   <meta name="description" content="HTML document writes in a proper Structure. Structure contain several needfull tags like html, head, title, body etc.">
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +76,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }	
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -129,8 +134,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -140,7 +145,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -180,25 +185,25 @@ letter-spacing:0.7px;
 	  <hr>
       <p class="content">The HTML document writes in a proper Structure. Structure contains several needfull tags like <b>html, head, title, body</b> etc.</p>
 	  <b> Structure of a Web page:</b>
-	  <b><pre>
-	  &lsaquo;html&rsaquo;
-	  &lsaquo;head&rsaquo;
-	  &lsaquo;title&rsaquo;
-	  PooriPadhai
-	  &lsaquo;&#8725;title&rsaquo;
-	  &lsaquo;&#8725;head&rsaquo;
-	  &lsaquo;body&rsaquo;
-	  The content of the web page should be put here...
-	  &lsaquo;&#8725;body&rsaquo;
-	  &lsaquo;&#8725;html&rsaquo;
+	  <pre>
+   &lt;html&gt;
+   &lt;head&gt;
+   &lt;title&gt;
+    <span style="color:black;">PooriPadhai</span>
+   &lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+    <span style="color:black;">The content of the web page should be put here...</span>
+   &lt;/body&gt;
+   &lt;/html&gt;
 	  </pre>
-	  </b>
+	 
 	  <ul>
-	  <li class="content">Everything about the web page should be enclosed inside <b> &lsaquo;html&rsaquo; and  &lsaquo;&#8725;html&rsaquo; </b>tag.</b></li>
-	  <li class="content">Each web page has a <b>head</b> part described in <b>&lsaquo;head&rsaquo; &lsaquo;&#8725;head&rsaquo;</b>.</li>
+	  <li class="content">Everything about the web page should be enclosed inside <span style="font-size:1.2em; color:blue; font-family:COURIER;"> &lt;html&gt; &lt;/html&gt; </span>tag.</b></li>
+	  <li class="content">Each web page has a <b>head</b> part described in <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;head&gt; &lt;/head&gt;</span>.</li>
 	  <li class="content"><b>Head</b> part contains <b>title, meta elements, CSS, Javascript</b> etc.</li>
 	  <li class="content">Just like <b>Human's Structure</b> consists of <b>Head and Body</b>. Similarly HTML have a <b>Head and Body section</b>.</li>
-	  <li class="content">The <b>Title</b> of the web page should be enclosed inside <b>&lsaquo;title&rsaquo; and  &lsaquo;&#8725;title&rsaquo;</b> tag.</li>
+	  <li class="content">The <b>Title</b> of the web page should be enclosed inside <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;title&gt; &lt;/title&gt;</span> tag.</li>
 	  <li class="content"><b>Website</b> is the collection of web pages which contains <b>text, video, audio, animations</b> etc.</li>
 	 </ul>
 	  
@@ -209,7 +214,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_iVYGSAycLM?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJD&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_iVYGSAycLM?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -288,7 +293,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

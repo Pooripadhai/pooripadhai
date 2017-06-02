@@ -4,10 +4,10 @@
 <title>HTML Tutorial | List</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML, list is of two types. Ordered list and Unordered list. <ul> tag is used to define unordered list and <ol> tag is used to define ordered list" >
+  <meta name="description" content="In HTML, list is of two types. Ordered list and Unordered list. ul tag is used to define unordered list and ol tag is used to define ordered list" >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,7 +76,7 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }	
 table {
     border-collapse: collapse;
@@ -94,7 +94,12 @@ th {
     background-color: #337ab7;
     color: white;
 }	
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -144,8 +149,8 @@ th {
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -155,7 +160,7 @@ th {
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -209,33 +214,33 @@ th {
 	 
 	   <br/>
 	     <h2>Unordered List</h2>
-         <p class="content">An unordered list starts with the <b>&lsaquo;ul&rsaquo; tag.</b></p>
-		 <p class="content">Each list item starts with the <b>&lsaquo;li&rsaquo; tag.</b></p>
+         <p class="content">An unordered list starts with the <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;ul&gt;</span> tag.</p>
+		 <p class="content">Each list item starts with the <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;li&gt;</span> tag.</p>
 		 
 
-		<b> Example: 
+		<b> Example:</b> 
 	   <pre>
-	   &lsaquo;ul&rsaquo;
-	   &lsaquo;li&rsaquo; First item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Second item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Third item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;&#8725;ul&rsaquo;
-	   </pre></b>
+   &lt;ul&gt;
+   &lt;li&gt;<span style="color:black;">First item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Second item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Third item</span>&lt;/li&gt;
+   &lt;/ul&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>Ordered List</h2>
-         <p class="content">An ordered list starts with the <b>&lsaquo;ol&rsaquo; tag.</b></p>
-		 <p class="content">Each list item starts with the <b>&lsaquo;li&rsaquo; tag.</b></p>
+         <p class="content">An ordered list starts with the <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;ol&gt;</span> tag.</p>
+		 <p class="content">Each list item starts with the <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;li&gt;</span> tag.</p>
 		 
 
-		<b> Example: 
+		<b> Example: </b>
 	   <pre>
-	   &lsaquo;ol&rsaquo;
-	   &lsaquo;li&rsaquo; First item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Second item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Third item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;&#8725;ol&rsaquo;
-	   </pre></b>
+   &lt;ol&gt;
+   &lt;li&gt;<span style="color:black;">First item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Second item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Third item</span>&lt;/li&gt;
+   &lt;/ol&gt;
+	   </pre>
 	   <br/>
 	   
 		<h2>Type attribute</h2>
@@ -269,32 +274,32 @@ th {
 </table> 
 
 <br/>
-<b> Example: 
+<b> Example:</b> 
 	   <pre>
-	   &lsaquo;ol type="A"&rsaquo;
-	   &lsaquo;li&rsaquo; First item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Second item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Third item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;&#8725;ol&rsaquo;
-	   </pre></b>
+   &lt;ol <span style="color:red;">type</span>=<b>"A"</b>&gt;
+   &lt;li&gt;<span style="color:black;">First item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Second item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Third item</span>&lt;/li&gt;
+   &lt;/ol&gt;
+	   </pre>
 	   <br/>
 
 		 <h2>Nested List</h2>
          <p class="content">We can put list inside list.</p>
 		 
 
-		<b> Example: 
+		<b> Example:</b> 
 	   <pre>
-	   &lsaquo;ul&rsaquo;
-	   &lsaquo;li&rsaquo; First item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Second item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;ul&rsaquo;
-	   &lsaquo;li&rsaquo; Second sub 1 item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;li&rsaquo; Second sub 2 item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;&#8725;ul&rsaquo;
-	   &lsaquo;li&rsaquo; Third item &lsaquo;&#8725;li&rsaquo;
-	   &lsaquo;&#8725;ul&rsaquo;
-	   </pre></b>
+   &lt;ul&gt;
+   &lt;li&gt;<span style="color:black;">First item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Second item</span>&lt;/li&gt;
+   &lt;ul&gt;
+   &lt;li&gt;<span style="color:black;">Second sub 1 item</span>&lt;/li&gt;
+   &lt;li&gt;<span style="color:black;">Second sub 2 item</span>&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;li&gt;<span style="color:black;">Third item</span>&lt;/li&gt;
+   &lt;/ul&gt;
+	   </pre>
 	   <br/>
 
 
@@ -308,7 +313,7 @@ th {
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8E0jaCHC188?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+ <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8E0jaCHC188?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -387,7 +392,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

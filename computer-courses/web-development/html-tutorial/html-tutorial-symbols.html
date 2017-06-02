@@ -7,7 +7,7 @@
   <meta name="description" content="Mathematical,technical, currency and other symbols are not available on general keyboards, So to solve this problem HTML provides an alternaitve option to add these symbols on web page." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,7 +76,7 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
 table {
     border-collapse: collapse;
@@ -94,7 +94,12 @@ th {
     background-color: #337ab7;
     color: white;
 }		
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -145,8 +150,8 @@ th {
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -156,7 +161,7 @@ th {
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -197,16 +202,16 @@ th {
       <p class="content">HTML symbols is used to add <b>mathematical,technical, currency </b>and other symbols on web page.</p>
 	  <ul>
 	  <li class="content">Mathematical,technical, currency and other symbols are <b>not available on general keyboards </b>, So to solve this problem HTML provides an alternaitve option to add these symbols on web page.</li>
-	  <li class="content">We can add these symbols by <b>entity name, decimal or hexadecimal reference<b>.</li>
+	  <li class="content">We can add these symbols by <b>entity name, decimal or hexadecimal reference</b>.</li>
 	 </ul>
 	 <br/>
 	 
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;p&rsaquo; Sum symbol by entity name  &amp;sum; &lsaquo;&#8725;p&rsaquo;
-	   &lsaquo;p&rsaquo; Sum symbol by decimal &amp;#8721; &lsaquo;&#8725;p&rsaquo;
-	   &lsaquo;p&rsaquo; Sum symbol by hexadecimal &amp;#x2211; &lsaquo;&#8725;p&rsaquo;
-	   </pre></b>
+   &lt;p&gt;<span style="color:black;">Sum symbol by entity name <mark>&amp;sum;</mark></span>&lt;/p&gt;
+   &lt;p&gt;<span style="color:black;">Sum symbol by decimal <mark>&amp;#8721;</mark></span>&lt;/p&gt;
+   &lt;p&gt;<span style="color:black;">Sum symbol by hexadecimal <mark>&amp;#x2211;</mark></span>&lt;/p&gt;
+	   </pre>
 	   <br/>
 	   
 	  <p class="content"><b>Click to get <a href="html-tutorial-symbols-code.html" target="_blank">ALL Symbols Code</a></b><p>
@@ -219,7 +224,7 @@ th {
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w4Tqml06BDA?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w4Tqml06BDA?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -298,7 +303,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

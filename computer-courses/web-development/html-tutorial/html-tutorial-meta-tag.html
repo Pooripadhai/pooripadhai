@@ -7,7 +7,7 @@
   <meta name="description" content="HTML meta element is used to give page description, keywords, author, and other metadata in HTML document. It is recommended to use the meta data to increase the SEO (search engine optimization) of website.  " >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -75,9 +75,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }	
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -128,8 +133,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -139,7 +144,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -186,23 +191,23 @@ letter-spacing:0.7px;
 	 <br/>
 	 
 	 <p>Define <b>keywords</b> for <b>search engines:</b></p>
-	   <b><pre>
-	   &lsaquo;meta name="keywords" content="HTML,CSS,Javascript"&rsaquo;</pre></b>
+<pre>
+   &lt;meta <span style="color:red;">name</span>=<b>"keywords"</b> <span style="color:red;">content</span>=<b>"HTML,CSS,Javascript"</b>&gt;</pre>
 	   <br/>
 	   
 	   <p>Define <b>description</b> for <b>web page:</b></p>
-	   <b><pre>
-	   &lsaquo;meta name="description" content="free tutorial of HTML"&rsaquo;</pre></b>
+	   <pre>
+   &lt;meta <span style="color:red;">name</span>=<b>"description"</b> <span style="color:red;">content</span>=<b>"free tutorial of HTML"</b>&gt;</pre>
 	   <br/>
 	   
 	   <p>Define <b>author</b> of <b>a web page:</b></p>
-	   <b><pre>
-	   &lsaquo;meta name="author" content="Ashwani Bansal"&rsaquo;</pre></b>
+	   <pre>
+   &lt;meta <span style="color:red;">name</span>=<b>"author"</b> <span style="color:red;">content</span>=<b>"Ashwani Bansal"</b>&gt;</pre>
 	   <br/>
 	   
 	   <p><b>Refresh </b> web page in every<b>"any value" seconds:</b></p>
-	   <b><pre>
-	   &lsaquo;meta http-equiv="refresh" content="5"&rsaquo;</pre></b>
+	  <pre>
+   &lt;meta <span style="color:red;">http-equiv</span>=<b>"refresh"</b> <span style="color:red;">content</span>=<b>"5"</b>&gt;</pre>
 	   <br/>
 	   
 	  
@@ -213,7 +218,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o__D5WDltCA?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+ <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o__D5WDltCA?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -292,7 +297,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

@@ -4,10 +4,9 @@
 <title>HTML Tutorial | Bold and Strong</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HTML Bold and Strong are used to give formatting to the text on web page. <b> and <strong> tags is used to give formatting of HTML document.." >
+  <meta name="description" content="HTML Bold and Strong are used to give formatting to the text on web page. b tag and strong tag are used to give formatting of HTML document.." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +75,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -129,8 +133,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -140,7 +144,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -180,22 +184,23 @@ letter-spacing:0.7px;
 	  <hr>
       <p class="content">HTML <b>bold tag</b> is used to give <b>bold text on web page , without any extra importance</b>.</p>
 	  <ul>
-	  <li class="content">HTML bold is define by <b>&lsaquo;b&rsaquo;</b> tag.</li>
+	  <li class="content">HTML bold is define by <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;b&gt;</span> tag.</li>
 	 </ul>
 	   
-	   <b> Example: <pre>
-	   &lsaquo;b&rsaquo;This text becomes bold&lsaquo;&#8725;b&rsaquo;</pre></b>
+	   <b> Example:</b> 
+	   <pre>
+   &lt;b&gt;<span style="color:black;">This text becomes bold</span>&lt;/b&gt;</pre>
 	   <br/>
 	   
 	        <h1>HTML Tutorial | Strong Tag</h1>
 	  <hr>
       <p class="content">HTML <b>strong tag</b> is used to give <b>strong text on web page, with semantically extra importance</b>.</p>
 	  <ul>
-	  <li class="content">HTML Strong is define by <b>&lsaquo;strong&rsaquo;</b> tag.</li>
+	  <li class="content">HTML Strong is define by <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;strong&gt;</span> tag.</li>
 	 </ul>
 	   
-	   <b> Example: <pre>
-	   &lsaquo;strong&rsaquo;This text becomes strong&lsaquo;&#8725;strong&rsaquo;</pre></b>
+	   <b> Example:</b> <pre>
+   &lt;strong&gt;<span style="color:black;">This text becomes strong</span>&lt;/strong&gt;</pre>
 	   
 	   <p class="content">There is <b>only a minute diffence between bold</b> and <b>strong</b>.Strong shows semantically more important than bold in HTML document.<br/>There is <b>no diffence on web page appearance.</b></p>
 	    <hr>
@@ -205,7 +210,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UKF5XdotG7Y?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UKF5XdotG7Y?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -284,7 +289,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

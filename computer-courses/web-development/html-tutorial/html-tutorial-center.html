@@ -4,10 +4,9 @@
 <title>HTML Tutorial | Center Tag</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML, <center> tag is used to center the elements of HTML like text, images, animations etc." >
+  <meta name="description" content="In HTML, center tag is used to center the elements of HTML like text, images, animations etc." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +75,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}
 	
   </style>
 </head>
@@ -129,8 +133,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -140,7 +144,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -180,12 +184,12 @@ letter-spacing:0.7px;
 	  <hr>
 	 <ul>
 	 <li class="content">In HTML, <b>center tag</b> is used to center the elements like <b>text, images, animations etc.</b> on HTML web page.</li>
-	 <li class="content">By placing the HTML <b>inside &lsaquo;center&rsaquo; &lsaquo;&#8725;center&rsaquo; tag</b> we can achieve the desired result.</li>
+	 <li class="content">By placing the HTML inside <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;center&gt; &lt;/center&gt;</span> tag we can achieve the desired result.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;center&rsaquo; Heading on Center&lsaquo;&#8725;center&rsaquo;
-	   &lsaquo;center&rsaquo; &lsaquo;img src="http://www.pooripadhai.com/favicon.png"&rsaquo; &lsaquo;&#8725;center&rsaquo;</pre>
+   &lt;center&gt;<span style="color:black;">Heading on Center</span>&lt;/center&gt;
+   &lt;center&gt;&lt;img <span style="color:red;">src</span>=<b>"http://www.pooripadhai.com/favicon.png"</b>&gt;&lt;/center&gt;</pre>
 	   <br/>
 	   
 	
@@ -197,7 +201,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/22euUtbmYzg?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/22euUtbmYzg?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -276,7 +280,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

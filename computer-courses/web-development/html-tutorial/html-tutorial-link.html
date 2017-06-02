@@ -7,7 +7,7 @@
   <meta name="description" content="HTML Link is used to jump from one web page to another in the Website. A hyperlink is a text or an image inwhich we can click on and jump to another document." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,7 +76,7 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
 table {
     border-collapse: collapse;
@@ -94,7 +94,12 @@ th {
     background-color: #337ab7;
     color: white;
 }	
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -145,8 +150,8 @@ th {
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -156,7 +161,7 @@ th {
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -198,13 +203,14 @@ th {
 	  <ul>
 	  <li class="content">A <b>hyperlink</b> is a text or an image inwhich we can click on and jump to another web page.</li>
 	  <li class="content"><b>HTML Links</b> allow users to click and help to move from one web page to another web page.</li>
-	  <li class="content"><big><b>Syntax:</b></big> <b>&lsaquo;a href="<abbr title="Uniform Resource Locator">url</abbr>"&rsaquo;</b> link text <b>&lsaquo;&#8725;a&rsaquo;</b></li>
+	  <li class="content"><big><b>Syntax:</b></big> <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;a <span style="color:red;">href</span>=<b>"<abbr title="Uniform Resource Locator">url</abbr>"</b>&gt;</span> link text <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;/a&gt;</span></li>
 	  <li class="content"><b>href</b> stands for Hyperlink Refrence (<b>hyperlink address</b>).</li>
 	  <li class="content"><b>url</b> stands for Uniform Resource Locator(<b>where our resource is located</b>).</li>
 	 </ul>
 	 
-	   <b> Example: <pre>
-	   &lsaquo;a href="http://www.pooripadhai.com"&rsaquo; Go to PooriPadhai Home &lsaquo;&#8725;a&rsaquo;</pre></b>
+	   <b> Example:</b>
+	   <pre>
+   &lt;a <span style="color:red;">href</span>=<b>"http://www.pooripadhai.com"</b>&gt;<span style="color:black;">Go to PooriPadhai Home</span>&lt;/a&gt;</pre>
 	   
 	     <h2>Target attribute</h2>
 <p class="content"><b>Target attribute</b> is used to <b>enhance the property of link or hyperlink.</b></p>
@@ -237,7 +243,9 @@ th {
 </tr>
 </table> 
   <br/>
-	   <b> Example: <pre>  &lsaquo;a href="http://www.pooripadhai.com" target="_blank"&rsaquo; PooriPadhai open in new tab. &lsaquo;&#8725;a&rsaquo;</pre></b>
+	   <b> Example:</b>
+<pre>
+   &lt;a <span style="color:red;">href</span>=<b>"http://www.pooripadhai.com"</b> <span style="color:red;">target</span>=<b>"_blank"</b>&gt;<span style="color:black;">PooriPadhai open in new tab.</span>&lt;/a&gt;</pre>
 
 	   
 	    <hr>
@@ -247,7 +255,7 @@ th {
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OmnLeooqUmo?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OmnLeooqUmo?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -326,7 +334,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

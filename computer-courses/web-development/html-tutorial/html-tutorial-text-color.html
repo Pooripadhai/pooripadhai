@@ -7,7 +7,7 @@
   <meta name="description" content="HTML text-color can be used to give different colors to any element on web page. color style attribute is used to give colors to the HTML element." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +76,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
 	
   </style>
@@ -130,8 +135,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li class="active"><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -141,7 +146,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -181,15 +186,16 @@ letter-spacing:0.7px;
 	  <hr>
       <p class="content">HTML <b>text-color</b> is <b>used to give different color</b> to any HTML element on web page.</p>
 	  <ul>
-	  <li class="content">HTML Text color are define by <b>style="color:value;"</b> syntax.</li>
+	  <li class="content">HTML Text color are define by <span style="font-size:1.2em; color:blue; font-family:COURIER;"><span style="color:red;">style</span>=<b>"color:value;"</b></span> syntax.</li>
 	  <li class="content"><b>Value</b> can given by color name (like <b>blue</b>), by <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">rgb code</a> (like <b>rgb(255,0,170)</b>)or by <a href="https://en.wikipedia.org/wiki/Web_colors" target="_blank">Hex code</a> (like <b>#ff22aa</b>)</li>
 	  <li>It can be used in any HTML element inside Opening tag.</li>
 	 </ul>
 	   
-	   <b> Example: <pre>
-	   &lsaquo;p style="color:red;"&rsaquo; This text becomes red. &lsaquo;&#8725;p&rsaquo;
-	   &lsaquo;p style="color:rgb(0,255,0);"&rsaquo; This text becomes green. &lsaquo;&#8725;p&rsaquo;
-	   &lsaquo;p style="color:#0000ff;"&rsaquo; This text becomes blue. &lsaquo;&#8725;p&rsaquo;</pre></b>
+	   <b> Example:</b>
+	   <pre>
+   &lt;p <span style="color:red;">style</span>=<b>"color:red;"</b>&gt;<span style="color:black;">This text becomes red.</span>&lt;/p&gt;
+   &lt;p <span style="color:red;">style</span>=<b>"color:rgb(0,255,0);"</b>&gt;<span style="color:black;">This text becomes green.</span>&lt;/p&gt;
+   &lt;p <span style="color:red;">style</span>=<b>"color:#0000ff;"</b>&gt;<span style="color:black;">This text becomes blue.</span>&lt;/p&gt;</pre>
 	    <hr>
 	   
 	   <div class="panel panel-primary" style="margin-top:1.5%">
@@ -197,7 +203,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vk_LVvJH-3E?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vk_LVvJH-3E?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -276,7 +282,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

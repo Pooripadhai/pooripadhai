@@ -7,7 +7,7 @@
   <meta name="description" content="In HTML, forms are used to collect inputs or data from users. HTML form contains input elements, textarea , buttons,radio buttons, submit button,password input, text input, select options etc." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,7 +76,7 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
 table {
     border-collapse: collapse;
@@ -94,7 +94,12 @@ th {
     background-color: #337ab7;
     color: white;
 }		
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -145,8 +150,8 @@ th {
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -156,7 +161,7 @@ th {
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -196,129 +201,129 @@ th {
 	  <hr>
       <p class="content">HTML forms are used to <b>collect inputs or data from users.</b></p>
 	  <ul>
-	  <li class="content">HTML form elements <b>come inside &lsaquo;form&rsaquo; &lsaquo;&#8725;foam&rsaquo; tag.</b></li>
+	  <li class="content">HTML form elements come inside <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;form&gt; &lt;/foam&gt;</span> tag.</li>
 	  <li class="content">HTML form contains <b>input elements, textarea , buttons, select options etc.</b></li>
 	 </ul>
 	 <br/>
 	 <h2>HTML Input element | Text Input</h2>
 	 <ul>
 	 <li class="content">Text input is used to <b>collect text from user.</b></li>
-	 <li class="content"><b>&lsaquo;input type="text"&rsaquo; tag</b> used to collect input information in text from user.</li>
-	 <li class="content">HTML <b>name attribute</b> specifies the <b>name or identity of an &lsaquo;input&rsaquo; element.</b></li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> tag used to collect input information in text from user.</li>
+	 <li class="content">HTML <b>name attribute</b> specifies the <b>name or identity of an.</b> <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input&gt;</span> <b>element.</b></li>
 	 <li class="content">HTML <b>value attribute</b> specifies the <b>initial value</b> for an input field.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="text" name="firstname"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Password Input</h2>
 	 <ul>
 	 <li class="content">HTML Password input is used to <b>collect passwords from user.</b></li>
-	 <li class="content"><b>&lsaquo;input type="password"&rsaquo; tag</b> is used to collect password from user.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"password"</b>&gt;</span> tag is used to collect password from user.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="password" name="password field"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"password"</b>&gt;</span> <span style="color:red;">name</span>=<b>"password field"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Radio Button</h2>
 	 <ul>
 	 <li class="content">HTML Radio button is used to <b>collect one choice from number of limited choices from user.</b></li>
-	 <li class="content"><b>&lsaquo;input type="radio"&rsaquo; tag</b> is used to collect a choice from user.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"radio"</b>&gt;</span> tag is used to collect a choice from user.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="radio" value="male"&rsaquo;
-	   &lsaquo;input type="radio" value="female"&rsaquo;
-	   &lsaquo;input type="radio" value="others"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"radio"</b>&gt;</span> <span style="color:red;">value</span>=<b>"male"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"radio"</b>&gt;</span> <span style="color:red;">value</span>=<b>"female"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"radio"</b>&gt;</span> <span style="color:red;">value</span>=<b>"other"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Checkbox Input</h2>
 	 <ul>
 	 <li class="content">HTML Checkbox input is used to <b>collect zero or more choices from number of limited choices from user.</b></li>
-	 <li class="content"><b>&lsaquo;input type="checkbox"&rsaquo; tag</b> is used to collect choices from user.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"checkbox"</b>&gt;</span> tag is used to collect choices from user.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="checkbox" value="Blue car"&rsaquo;
-	   &lsaquo;input type="checkbox" value="Red car"&rsaquo;
-	   &lsaquo;input type="checkbox" value="Black car"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"checkbox"</b>&gt;</span> <span style="color:red;">value</span>=<b>"Blue Car"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"checkbox"</b>&gt;</span> <span style="color:red;">value</span>=<b>"Red Car"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"checkbox"</b>&gt;</span> <span style="color:red;">value</span>=<b>"Black Car"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Button Input</h2>
 	 <ul>
 	 <li class="content">HTML Button input is used to <b>generate clickable event ( generally use in javascript).</b></li>
-	 <li class="content"><b>&lsaquo;input type="button"&rsaquo; tag</b> is used to define a button on HTML web page.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"button"</b>&gt;</span> tag is used to define a button on HTML web page.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="button" value="Click me!"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"button"</b>&gt;</span> <span style="color:red;">value</span>=<b>"Click Me!"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Submit Button</h2>
 	 <ul>
 	 <li class="content">HTML Submit button is used to <b>send all the input data to the server through form handler.</b></li>
 	 <li class="content">The <b>form-handler</b> is typically a server page with a <b>script for processing input data.</b></li>
-	 <li class="content"><b>&lsaquo;input type="submit"&rsaquo; tag</b> is used to send all input information to the <b>server</b>.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;input <span style="color:red;">type</span>=<b>"submit"</b>&gt;</span> tag is used to send all input information to the <b>server</b>.</li>
 	 <li class="content">HTML <b>action attribute</b> specifies the <b>url of form handler page</b> for processing input data.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form action="contact.php"&rsaquo;
-	   &lsaquo;input type="text" name="firstname"&rsaquo;
-	   &lsaquo;input type="password" name="password field"&rsaquo;
-	   &lsaquo;input type="submit" value="Submit"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form <span style="color:red;">action</span>=<b>"contact.php"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"password"</b>&gt;</span> <span style="color:red;">name</span>=<b>"password field"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"submit"</b>&gt;</span> <span style="color:red;">value</span>=<b>"Submit"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Textarea</h2>
 	 <ul>
 	 <li class="content">HTML Textarea is used to <b>collect multi-line texts from user.</b></li>
-	 <li class="content"><b>&lsaquo;textarea&rsaquo; tag</b> is used to collect multi-line text from user.</li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;textarea&gt;</span> tag is used to collect multi-line text from user.</li>
 	 <li class="content">We can set the <b>default or initial size </b> of textarea by <b>cols</b> and <b>rows attributes.</b></li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;textarea name="message" rows="10" cols="30"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;textarea <span style="color:red;">name</span>=<b>"message"</b> <span style="color:red;">rows</span>=<b>"10"</b> <span style="color:red;">cols</span>=<b>"30"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Input element | Select Option</h2>
 	 <ul>
 	 <li class="content">HTML Select option is used to <b>collect one selected option from many available options from user.</b></li>
-	 <li class="content"><b>&lsaquo;select&rsaquo; tag</b> is used to provide <b>drop-down list</b> of options to the user.</li>
-	 <li class="content">Every option comes inside <b>&lsaquo;option&rsaquo; &lsaquo;&#8725;option&rsaquo; tag</b></li>
+	 <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;select&gt;</span> tag is used to provide <b>drop-down list</b> of options to the user.</li>
+	 <li class="content">Every option comes inside <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;option&gt; &lt;/option&gt;</span> tag</li>
 	 <li class="content">The list will normally shows the first item as selected.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;select name="car"&rsaquo;
-	   &lsaquo;option&rsaquo; Audi &lsaquo;&#8725;option&rsaquo;
-	   &lsaquo;option&rsaquo; Lamborghini &lsaquo;&#8725;option&rsaquo;
-	   &lsaquo;option&rsaquo; Ferrari &lsaquo;&#8725;option&rsaquo;
-	   &lsaquo;&#8725;select&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;select <span style="color:red;">name</span>=<b>"car"</b>&gt;
+   &lt;option&gt;<span style="color:black;">Audi</span>&lt;/option&gt;
+   &lt;option&gt;<span style="color:black;">Lamborghini</span>&lt;/option&gt;
+   &lt;option&gt;<span style="color:black;">Ferrari</span>&lt;/option&gt;
+   &lt;/select&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	  
@@ -331,7 +336,7 @@ th {
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FRGa2H242fI?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FRGa2H242fI?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -410,7 +415,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

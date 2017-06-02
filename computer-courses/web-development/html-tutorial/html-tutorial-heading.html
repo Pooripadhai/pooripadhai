@@ -4,11 +4,11 @@
 <title>HTML Tutorial | Heading</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML, Heading are defined by <h1>,<h2>,<h3>,<h4>,<h5>,<h6> tags. Heading are important to define headings of paragraphs and articles.
+  <meta name="description" content="In HTML, Heading are defined by h1 tag, h2 tag, h3 tag, h4 tag, h5 tag, h6 tag. Heading are important to define headings of paragraphs and articles.
   It is also help to search our web page on Search engine (like google,yahoo etc)">
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -77,9 +77,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
 	
   </style>
@@ -131,8 +136,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -142,7 +147,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -182,15 +187,15 @@ letter-spacing:0.7px;
 	  <hr>
       <p class="content"><b>Headings</b> are used to give headings of paragraphs and articles in the HTML documents.<b></b></p>
 	  <ul>
-	  <li class="content">Headings are define by <b>&lsaquo;h1&rsaquo;,&lsaquo;h2&rsaquo;,&lsaquo;h3&rsaquo;,&lsaquo;h4&rsaquo;,&lsaquo;h5&rsaquo;,&lsaquo;h6&rsaquo;, tags.</b></li>
-	  <li class="content"><b>&lsaquo;h1&rsaquo;</b> shows the <b>most important heading.</b></li>
-	  <li class="content"><b>&lsaquo;h6&rsaquo;</b> shows the <b>least important heading.</b></li>
-	  <li class="content"><b>&lsaquo;h6&rsaquo;</b> to <b>&lsaquo;h1&rsaquo;</b> tags defines the progressively increasing of importance of Heading and Size.</li>
+	  <li class="content">Headings are define by <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</span> tags.</b></li>
+	  <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;h1&gt;</span> shows the <b>most important heading.</b></li>
+	  <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;h6&gt;</span> shows the <b>least important heading.</b></li>
+	  <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;h6&gt;</span> to <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;h1&gt;</span> tags defines the progressively increasing of importance of Heading and Size.</li>
 	 </ul>
        <p class="content">Heading are also important for <b>Search Engine</b>(like Google, Yahoo etc.) to index the web pages and it increase the <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank">SEO</a> of Website.</p>
 	   
-	   <b> Example: 
-	        <pre>      &lsaquo;h1&rsaquo;PooriPadhai&lsaquo;&#8725;h1&rsaquo;</pre></b>
+	   <b> Example:</b>
+   <pre>   &lt;h1&gt;<span style="color:black;">PooriPadhai</span>&lt;/h1&gt;</pre>
 	    <hr>
 	   
 	   <div class="panel panel-primary" style="margin-top:1.5%">
@@ -198,7 +203,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VekYGGgO6Uc?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VekYGGgO6Uc?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -277,7 +282,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

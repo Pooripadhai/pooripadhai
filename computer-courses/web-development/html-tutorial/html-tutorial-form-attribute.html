@@ -4,10 +4,10 @@
 <title>HTML Tutorial | Form Attribute</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML, forms attribute are used to <b>enhance the properties of HTML form elements.Form attributes are name, value, size, maxlength, readonly, disable etc." >
+  <meta name="description" content="In HTML, forms attribute are used to enhance the properties of HTML form elements.Form attributes are name, value, size, maxlength, readonly, disable etc." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,7 +76,7 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
 table {
     border-collapse: collapse;
@@ -94,7 +94,12 @@ th {
     background-color: #337ab7;
     color: white;
 }		
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
   </style>
 </head>
@@ -145,8 +150,8 @@ th {
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -156,7 +161,7 @@ th {
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -201,13 +206,13 @@ th {
 	 <li class="content">HTML Readonly attribute is used to make sure that the <b>input field is read only (it cannot be changed).</b></li>
 	 <li class="content">By placing the <b>readonly</b> attribute inside the input field we can achieve the desired result.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="text" name="firstname" readonly&rsaquo;
-	   &lsaquo;input type="text" name="lastname"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b> readonly&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"lastname"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Form | Disable attribute</h2>
@@ -216,42 +221,42 @@ th {
 	 <li class="content">HTML <b>disabled</b> element is <b>un-usable</b> and <b>un-clickable.</b></li>
 	 <li class="content">By placing the <b>disable</b> attribute inside the input field we can achieve the desired result.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="text" name="firstname" disable&rsaquo;
-	   &lsaquo;input type="text" name="lastname"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b> disable&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"lastname"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Form | Size attribute</h2>
 	 <ul>
 	 <li class="content">HTML Size attribute is used to define <b>size (number of character) of the input field.</b></li>
-	 <li class="content">By placing the <b>size="value"</b> inside the input field we can achieve the desired result.</li>
+	 <li class="content">By placing the <span style="font-size:1.2em; color:blue; font-family:COURIER;"><span style="color:red;">size</span>=<b>"value"</b></span> inside the input field we can achieve the desired result.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="text" name="firstname" size="40"&rsaquo;
-	   &lsaquo;input type="text" name="lastname"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b> <span style="color:red;">size</span>=<b>"40"</b></span>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"lastname"</b>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	   
 	   <h2>HTML Form | Maxlength attribute</h2>
 	 <ul>
 	 <li class="content">HTML Maxlength attribute is used to define <b>maximum allowable length of character for input field.</b></li>
-	 <li class="content">By placing the <b>maxlength="value"</b> inside the input field we can achieve the desired result.</li>
+	 <li class="content">By placing the <span style="font-size:1.2em; color:blue; font-family:COURIER;"><span style="color:red;">maxlength</span>=<b>"value"</b></span> inside the input field we can achieve the desired result.</li>
 	 </ul>
-	 <b>Example:
+	 <b>Example:</b>
 	   <pre>
-	   &lsaquo;form&rsaquo;
-	   &lsaquo;input type="text" name="firstname"&rsaquo;
-	   &lsaquo;input type="text" name="lastname"&rsaquo;
-	   &lsaquo;input type="password" name="password field" maxlength="20"&rsaquo;
-	   &lsaquo;&#8725;foam&rsaquo;
-	   </pre></b>
+   &lt;form&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"firstname"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"text"</b>&gt;</span> <span style="color:red;">name</span>=<b>"lastname"</b>&gt;
+   &lt;input <span style="color:red;">type</span>=<b>"password"</b>&gt;</span> <span style="color:red;">name</span>=<b>"Password field"</b> <span style="color:red;">maxlength</span>=<b>"20"</b></span>&gt;
+   &lt;/foam&gt;
+	   </pre>
 	   <br/>
 	
 	   
@@ -262,7 +267,7 @@ th {
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TtLQ-vBsIGY?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TtLQ-vBsIGY?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -341,7 +346,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

@@ -4,10 +4,10 @@
 <title>HTML Tutorial | Image</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML, <img> tag are used to present images on the Website. It is an example of one sided tag." >
+  <meta name="description" content="In HTML, img tag are used to present images on the Website. It is an example of one sided tag." >
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +76,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -128,8 +133,8 @@ letter-spacing:0.7px;
 		<li><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -139,7 +144,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -177,17 +182,17 @@ letter-spacing:0.7px;
   </ol>
      <h1>HTML Tutorial | Image</h1>
 	  <hr>
-      <p class="content">In HTML, <b>&lsaquo;img&rsaquo; tag </b>is used <b>to present images (like jpg, png, gif etc.)</b> on web page.</p>
+      <p class="content">In HTML, <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;img&gt;</span> tag is used <b>to present images (like jpg, png, gif etc.)</b> on web page.</p>
 	  <ul>
-	  <li class="content"><b>&lsaquo;img&rsaquo; tag</b> is an example of <b>One sided tag</b></li>
-	  <li class="content"><big><b>Syntax:</b></big> <b>&lsaquo;img src="<abbr title="Uniform Resource Locator">url</abbr>"&rsaquo;</b></li>
+	  <li class="content"><span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;img&gt;</span> tag is an example of <b>One sided tag</b></li>
+	  <li class="content"><big><b>Syntax:</b></big> <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;img <span style="color:red;">src</span>=<b>"<abbr title="Uniform Resource Locator">url</abbr>"</b>&gt;</span></li>
 	  <li class="content"><b>src</b> stands for Source.</li>
 	  <li class="content"><b>url</b> stands for Uniform Resource Locator (<b>where our resource is located</b>).</li>
 	 </ul>
 	 
 	 
-	   <b> Example: <pre>
-	   &lsaquo;img src="http://www.pooripadhai.com/favicon1.png"&rsaquo; </pre></b>
+	   <b> Example:</b> 
+	   <pre>   &lt;img <span style="color:red;">src</span>=<b>"http://www.pooripadhai.com/favicon1.png"</b>&gt; </pre>
 	   <br/>
 	     <h2>Alt attribute</h2>
 <p class="content">The <b>alt</b> attribute specifies an <b>alternate text</b> for an image, <b>if the image cannot be displayed.</b></p>
@@ -197,13 +202,18 @@ letter-spacing:0.7px;
 	 <li class="content">If a browser cannot find an image, it will display the alt text.</li>
 	 </ul>
 
-		<b> Example: <pre>&lsaquo;img src="http://www.pooripadhai.com/favicon1.png" alt="pooripadhai logo"&rsaquo; </pre></b>
+		<b> Example: </b>
+		<pre>   &lt;img <span style="color:red;">src</span>=<b>"http://www.pooripadhai.com/favicon1.png"</b> <span style="color:red;">alt</span>=<b>"pooripadhai logo"</b>&gt; </pre>
 		<br/>
 		<h2>Width and Height attribute</h2>
 <p class="content">The <b>width and height</b> attribute used to <b>re-size</b> an image.</p>
 		 
-		<b> Example: <pre>&lsaquo;img src="http://www.pooripadhai.com/favicon1.png" alt="pooripadhai logo" width="60px" height="50px"&rsaquo; </pre></b>
-		<b> Example: <pre>&lsaquo;img src="http://www.pooripadhai.com/favicon1.png" alt="pooripadhai logo" width="20%" height="15%"&rsaquo; </pre></b>
+		<b> Example:</b>
+<pre>
+   &lt;img <span style="color:red;">src</span>=<b>"http://www.pooripadhai.com/favicon1.png"</b> <span style="color:red;">alt</span>=<b>"pooripadhai logo"</b> <span style="color:red;">width</span>=<b>"60px"</b> <span style="color:red;">height</span>=<b>"50px"</b>&gt; </pre></b>
+<b> Example:</b>
+<pre>
+   &lt;img <span style="color:red;">src</span>=<b>"http://www.pooripadhai.com/favicon1.png"</b> <span style="color:red;">alt</span>=<b>"pooripadhai logo"</b> <span style="color:red;">width</span>=<b>"20%"</b> <span style="color:red;">height</span>=<b>"15%"</b>&gt; </pre>
 
 	   
 	    <hr>
@@ -213,7 +223,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JSKZfx2jJAc?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJDr&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JSKZfx2jJAc?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -292,7 +302,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>

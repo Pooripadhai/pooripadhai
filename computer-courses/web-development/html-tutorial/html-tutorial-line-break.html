@@ -4,10 +4,10 @@
 <title>HTML Tutorial | Line Break</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="In HTML,the line break can be used to give line space between the content in HTML web page. <br> tag is used to define the Line break.">
+  <meta name="description" content="In HTML,the line break can be used to give line space between the content in HTML web page. br tag is used to define the Line break.">
   <link rel="SHORTCUT ICON" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <style>
@@ -76,9 +76,14 @@ p.content,li.content
 {
 font-family:verdana;
 line-height:24px;
-letter-spacing:0.7px;
+letter-spacing:0.5px;
 }
-	
+pre
+{
+font-size:1.2em;
+color:blue;
+font-family:COURIER;
+}	
 	
 	
   </style>
@@ -130,8 +135,8 @@ letter-spacing:0.7px;
 		<li class="active"><a href="html-tutorial-line-break.html#front">HTML Line Break</a></li>
 		<li><a href="html-tutorial-pre-tag.html#front">HTML Pre Tag</a></li>
 		<li><a href="html-tutorial-style-attribute.html#front">HTML Style Intro</a></li>
-		<li ><a href="html-tutorial-font.html">HTML Fonts</a></li>
-		<li><a href="html-tutorial-text-size.html">HTML Text Size</a></li>
+		<li ><a href="html-tutorial-font.html#front">HTML Fonts</a></li>
+		<li><a href="html-tutorial-text-size.html#front">HTML Text Size</a></li>
 		<li ><a href="html-tutorial-background-color.html#front">HTML Background</a></li>
 		<li ><a href="html-tutorial-text-color.html#front">HTML Text Color</a></li>
 		<li ><a href="html-tutorial-text-alignment.html#front">HTML Text Alignment</a></li>
@@ -141,7 +146,7 @@ letter-spacing:0.7px;
 		<li ><a href="html-tutorial-delete-insert.html#front">HTML Del-Ins</a></li>
 		<li ><a href="html-tutorial-subscript-superscript.html#front">HTML Sub-Sup|script</a></li>
 		<li ><a href="html-tutorial-mark-tag.html#front">HTML Mark Tag</a></li>
-		<li><a href="html-tutorial-quotation.html">HTML Quotation</a></li>
+		<li><a href="html-tutorial-quotation.html#front">HTML Quotation</a></li>
 		<li><a href="html-tutorial-abbreviation.html#front">HTML Abbreviation</a></li>
 		<li><a href="html-tutorial-computer-code.html#front">HTML Computer Code</a></li>
 		<li ><a href="html-tutorial-comment.html#front">HTML Comments</a></li>
@@ -181,11 +186,13 @@ letter-spacing:0.7px;
 	  <hr>
       <p class="content">In HTML,the <b>line break</b> can be used to give <b>line space between the content</b> on HTML web page.</p>
 	  <ul>
-	  <li class="content">HTML Line Break are define by <b>&lsaquo;br&#8725;&rsaquo; tags.</b></li>
-	  <li class="content">Line Break tag <b>&lsaquo;br&#8725;&rsaquo;</b> is the <b>example</b> of <b>One Sided Tag.</b></li>
+	  <li class="content">HTML Line Break are define by <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;br/&gt;</span> tags.</b></li>
+	  <li class="content">Line Break tag <span style="font-size:1.2em; color:blue; font-family:COURIER;">&lt;br/&gt;</span> is the <b>example</b> of <b>One Sided Tag.</b></li>
 	 </ul>
 	   
-	   <b> Example: <pre>Content 1 &lsaquo;br&#8725;&rsaquo; Content 2</pre></b>
+	   <b> Example:</b> 
+<pre>
+   <span style="color:black;">Content 1</span> &lt;br/&gt; <span style="color:black;">Content 2</span></pre></b>
 	    <hr>
 	   
 	   <div class="panel panel-primary" style="margin-top:1.5%">
@@ -193,7 +200,7 @@ letter-spacing:0.7px;
 	  </div>
 	 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7IqJUxhDk7U?list=PLzSI4jR1TSkNNKo7xoAT8JW0lQ2p_lJD&amp;showinfo=0&rel=0"></iframe>
+   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7IqJUxhDk7U?&amp;showinfo=0&rel=0" allowfullscreen></iframe>
   </div>
   <b>Best Use:</b><em>360p or more (480p or 720p)</em>
 	  
@@ -272,7 +279,16 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 </body>
