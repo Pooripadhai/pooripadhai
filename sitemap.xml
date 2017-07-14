@@ -1,817 +1,3693 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
 <url>
-  <loc>http://pooripadhai.com/</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/previous-year-paper.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/previous-year-paper.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/computer-courses.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/syllabus.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/computer-courses.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/credits.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/privacypolicy.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/credits.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/privacypolicy.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/sitemap.xml</loc>
+   <lastmod>2017-07-14T16:19:01+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-introduction.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-syntax.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-structure.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/cbse/class10th.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-first-example.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/cbse/class11and12.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-heading.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/icse/class9and10.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-paragraph.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/isc/class11and12.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-attribute.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/up/class10th.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-horizontal-line.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/boards/up/class12th.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-line-break.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/aktu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-pre-tag.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/anna-university.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-style-attribute.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/csjmu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-font.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/gtu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-size.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/jntua.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-background-color.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/jntuh.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-color.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/jntuk.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-alignment.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/ptu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-bold-strong.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/rtu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-italic-emphasize.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/jee-main.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-small-big.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/ssc-cgl.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-delete-insert.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/gate.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-subscript-superscript.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/ies-ese.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-mark-tag.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/nda.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-quotation.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/cds.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-abbreviation.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/neet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-computer-code.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/clat.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-comment.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/competition-exams.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-link.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-introduction.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-image.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-syntax.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-table.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-structure.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-list.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-first-example.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-div.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-heading.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-span.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-paragraph.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-iframe.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-attribute.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-meta-tag.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-horizontal-line.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-symbols.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-line-break.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-form.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-pre-tag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-form-attribute.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-style-attribute.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-center.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-font.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-website.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-size.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-symbols-code.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-background-color.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-color.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-text-alignment.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-bold-strong.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-italic-emphasize.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-small-big.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-delete-insert.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-subscript-superscript.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-mark-tag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-quotation.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-abbreviation.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2017.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-computer-code.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-comment.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-link.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-image.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-table.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-list.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-div.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-span.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-iframe.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-meta-tag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-symbols.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-form.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-form-attribute.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2014-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-center.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2013-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-website.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2012-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/computer-courses/web-development/html-tutorial/html-tutorial-symbols-code.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-10-cbse/class-10-cbse-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2017.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-cbse/class-12-cbse-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2017.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2017.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/class-12-isc/class-12-isc-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/b.tech-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.pharm-aktu/b.pharm-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.arch-aktu/b.arch-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2014-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2013-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/mca-aktu/mca-aktu-2012-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/bca-ignou/bca-ignou-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.sc-nursing-ignou/bsc-nursing-ignou-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2017.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-main/jee-main-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2017.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/jee-advance/jee-advance-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/gate/gate-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ies/ies-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/nda/nda-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2012.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2017.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/cds/cds-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2014-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2013-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2012-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/neet/neet-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/clat/clat-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2014-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2013-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2012-2013.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu-2014-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/competition-exams/ca/ca-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu-2013-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2016.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2015.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2014.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-10-cbse/class-10-cbse-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2015-16.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-cbse/class-12-cbse-2012.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2017.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/class-12-isc/class-12-isc-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2014-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2013-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2014-15.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bhmct-aktu/bhmct-aktu-2012-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/bfad-aktu/bfad-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/b.com-ignou/b.com-ignou-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2013-14.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2014-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2013-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mba-aktu/mba-aktu-2012-2013.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu-2014-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/mam-aktu/mam-aktu-2013-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2016.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2015.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2012-13.html</loc>
-  <lastmod>2017-05-31T09:45:00+00:00</lastmod>
+   <loc>http://pooripadhai.com/previous-year-paper/art-and-commerce/ma-english-ignou/ma-english-ignou-2014.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.arch/b.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/bfa/bfa.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/bfad/bfad.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/bhmct/bhmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/m.arch/m.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/mam/mam.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/mbatour/mbatour.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/mca-dual-degree/mca-dual-degree.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.arch/b.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/be.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/bsc/bsc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/bca/bca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/m.arch/m.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/msc/msc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bcom/bcom.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bed/bed.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/blib/blib.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bped/bped.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bsc/bsc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/ba/ba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bba/bba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/bachelor/bachelor.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/diploma/diploma.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mcom/mcom.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/med/med.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mlib/mlib.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mphil/mphil.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mped/mped.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/msc/msc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/master/master.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/b.arch/b.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/be.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/b.plan/b.plan.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/bhmct/bhmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/d.arch/d.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/d.pharm/d.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/de.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/dhmct/dhmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/i-mca/i-mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/mam/mam.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/mpm/mpm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/mtm/mtm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/ph.d/ph.d.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/pddc/pddc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.arch/b.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.com/b.com.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.pharm/b.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/bsc/bsc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/bachelor/bachelor.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/bba/bba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/bca/bca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/bhmct/bhmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/diploma/diploma.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/m.pharm/m.pharm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/m.arch/m.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/m.com/m.com.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/msc/msc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/master/master.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/mam/mam.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.arch/b.arch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/b.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/bhmct/bhmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/m.tech/m.tech.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/mca/mca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/mam/mam.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/mba/mba.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/bisat.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/comedk.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/ipu-cet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/jee-advanced.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/eee/nest.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/ctet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/ias.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/isi.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/lic-aao.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/rrb.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/gee/tes-ia.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/aiims.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/cmc-l.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/cmc-v.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/comedk.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/jipmer.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/mee/nest.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/aieed.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/ailet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/ca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/hsee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/lsat.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/nchmct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/nid-dat.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/nift.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/ahcee/tissnet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/ibps-clerk.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/ibps-po.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/rbi-a.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/rbi-b.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/sbi-clerk.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/bee/sbi-po.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/uee/amu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/uee/imu-cet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/uee/jnu.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/uee/manipal.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/competition-exams/uee/vitee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2015-16.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2014-15.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2013-14.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CE/ce-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CHE/che-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/CS/cs-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EC/ec-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/EE/ee-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/IT/it-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/previous-year-paper/science-and-engineering/b.tech-aktu/ME/me-aktu-2012-13.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ag/ag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/applied/applied.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/carpet/carpet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ee/ee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/et/et.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/el/el.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ev/ev.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ft/ft.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ip/ip.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/ic/ic.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/mm/mm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/mf/mf.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/mx/mx.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/pl/pl.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/pe/pe.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/tc/tc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/tx/tx.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/aktu/b.tech/tt/tt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ev/ev.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ge/ge.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ie/ie.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/iem/iem.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ice/ice.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mf/mf.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/marine/marine.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mse/mse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mae/mae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mee/mee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/pe/pe.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ce-pt/ce-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/cs-pt/cs-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/eee-pt/eee-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ec-pt/ec-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/ei-pt/ei-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/mf-pt/mf-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/me-pt/me-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/be/pe-pt/pe-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/che/che.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/ft/ft.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/pee/pee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/pet/pet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/pete/pete.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/ph/ph.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/pl/pl.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/po/po.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/tc/tc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/tt/tt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/ttft/ttft.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/anna-university/b.tech/tt-pt/tt-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/ma/ma.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/che/che.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/cse/cse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/ece/ece.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/csjmu/b.tech/mse/mse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/cht/cht.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/cse/cse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ee/ee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/el/el.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/et/et.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ev/ev.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/eve/eve.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/evt/evt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/fpt/fpt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ie/ie.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ict/ict.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ice/ice.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/mf/mf.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/marine/marine.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/ml/ml.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/mi/mi.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/pl/pl.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/pow/pow.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/pe/pe.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/rt/rt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/tp/tp.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/be/tt/tt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ag/ag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/aa/aa.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/cddm/cddm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ct/ct.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ca/ca.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/cp/cp.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ee/ee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ev/ev.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/fb/fb.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/fire/fire.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/hs/hs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ice/ice.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/ml/ml.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/mi/mi.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/pl/pl.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/pow/pow.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/pt/pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/td/td.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/tm/tm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/tp/tp.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/gtu/de/te/te.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/csse/csse.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ecs/ecs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ece/ece.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntua/b.tech/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/cee/cee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ecs/ecs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/ete/ete.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/mee/mee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/mining/mining.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/nt/nt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuh/b.tech/pet/pet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/mee/mee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/mining/mining.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/petc/petc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/jntuk/b.tech/pet/pet.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/3d/3d.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/as/as.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/applied/applied.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ar/ar.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/eeic/eeic.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ee/ee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ee-pt/ee-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ec/ec.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ecs/ecs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ei/ei.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ete/ete.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ft/ft.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/iem-pt/iem-pt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/marine/marine.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/ppre/ppre.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/pe/pe.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/ptu/b.tech/te/te.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ae/ae.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ag/ag.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/applied/applied.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/au/au.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/bm/bm.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/bt/bt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ceramic/ceramic.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ch/ch.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ce/ce.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/cs/cs.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/eee/eee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ee/ee.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/eice/eice.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/ft/ft.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/iem/iem.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/it/it.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/me/me.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/mc/mc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/mining/mining.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/petc/petc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/pete/pete.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/pie/pie.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/tc/tc.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
+</url>
+<url>
+   <loc>http://pooripadhai.com/syllabus/universities/rtu/b.tech/tt/tt.html</loc>
+   <lastmod>2017-07-14T16:16:33+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.4096</priority>
 </url>
 </urlset>
