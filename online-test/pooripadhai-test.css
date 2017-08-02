@@ -10,15 +10,20 @@ h2,
 h3,
 h4,
 div,
-td,
 th,
+td,
 p,
 ul,
 ol,
 input,
 textarea,
 select {
-    font-family: arial
+    font-family: arial;
+}
+.goodlooking
+{
+	font-family:Georgia;
+	font-size:115%;
 }
 body {
     background-color: #fbfbfb;
