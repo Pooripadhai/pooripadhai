@@ -343,6 +343,8 @@ function PopulateResultStatics()
     tmpResStat = tmpResStat.replace('[AQ]'    , intAnsweredCount);
     tmpResStat = tmpResStat.replace('[UQ]'    , intUnAnsweredCount);
     $('#divResultStatistics').html(tmpResStat);
+	
+	document.getElementById("percentage").innerHTML=(intCorrectAnswerCount*100)/intTotalQuestions+"%"
                
     $('#divResult .pp-div-answer').show();        /* Makes visible all AnsDesc. divs.  */
    
@@ -369,7 +371,7 @@ function PopulateResultStatics()
 
 
             
-            <div id="divFloatTimer" align="center" style="display:none; padding:10px; position:fixed; z-index:3000000; bottom:10px; left:1px; width:auto; background-color:#5eac1a; color:white; ">
+            <div id="divFloatTimer" align="center" style="display:none; padding:10px; position:fixed; z-index:3000000; bottom:10px; left:1px; width:auto; background-color:#ff0222; color:white; ">
                 Time Left: <span id="idFloatTimerLCD" style="font-weight:bold"></span>
             </div>
         
@@ -378,7 +380,7 @@ function PopulateResultStatics()
         <div id="divResultStatistics" style="display:none; width:100%; padding-top:5px;">
         
             <table class="ib-dgray" cellspacing="0" cellpadding="4" style="font-size:12px; border:2px solid #ADD8E6; background-color:#fafafa;" width="100%">
-            <tr><td align="center" bgcolor="#ADD8E6" colspan="3"><b>Marks : [XX/XX] </b></td></tr>
+            <tr><td align="center" bgcolor="#ADD8E6" colspan="3" style="font-size:120%"><b>Marks : [XX/XX] </b></td></tr>
             
 			<tr >
                 <td>&nbsp; Total number of questions</td>
@@ -394,6 +396,11 @@ function PopulateResultStatics()
                 <td>&nbsp; Number of unanswered questions</td>
                 <td width="1%">:</td>
                 <td align="right" style="padding-right:40px"><b>[UQ]</b></td>
+            </tr>
+			<tr>
+                <td>&nbsp; Percentage</td>
+                <td width="1%">:</td>
+                <td align="right" style="padding-right:20px;"><b id="percentage"></b></td>
             </tr>
 			
             </table>
@@ -428,18 +435,7 @@ function PopulateResultStatics()
 			<!--Enter all your Questions-->
 			
 
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+		
 			
 			
 			
