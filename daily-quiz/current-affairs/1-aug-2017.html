@@ -83,6 +83,24 @@
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1886983901556004',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -1558,6 +1576,8 @@ function PopulateResultStatics()
                
             </div>
 			<br/><center><a href="http://www.pooripadhai.com/daily-quiz/daily-quiz.html"><button type="button" class="btn btn-primary btn-md">Back To Daily Quiz</button></a></center>
+			<p style="font-weight:bold;font-size:150%">Feedback:</p>
+			<div class="fb-comments" data-href="http://pooripadhai.com" data-width="100%" data-numposts="5"></div>
          </div>
         
       </td>
