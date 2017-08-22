@@ -344,8 +344,7 @@ function PopulateResultStatics()
     tmpResStat = tmpResStat.replace('[UQ]'    , intUnAnsweredCount);
     $('#divResultStatistics').html(tmpResStat);
 	
-	document.getElementById("percentage").innerHTML=(intCorrectAnswerCount*100)/intTotalQuestions+"%"
-               
+	document.getElementById("percentage").innerHTML=((intCorrectAnswerCount*100)/intTotalQuestions).toFixed(2)
     $('#divResult .pp-div-answer').show();        /* Makes visible all AnsDesc. divs.  */
    
     /* Initial Swap to Result Stat. Tab */
@@ -417,7 +416,8 @@ function PopulateResultStatics()
             <ul class="ul-test-instruction" style="font-size:110%;">
             <li>Total number of questions : <b>20</b>.</li>
             <li>Time alloted : <b>30</b> minutes.</li>
-            <li>Each question carry 1 mark, no negative marks.</li>
+            <li>Each question carry 1 mark.</li>
+			<li>No Negative marks</li>
             <li>DO NOT refresh the page.</li>
             <li>All the best :-).</li>
             </ul>
