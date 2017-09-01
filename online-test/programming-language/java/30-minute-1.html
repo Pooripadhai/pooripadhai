@@ -1,0 +1,4006 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head id="myPage">
+<title>Java Language-30 Minute | Online Test-1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="PooriPadhai,Poori padhai,padhai,study,education,online test,quiz,web technology,computer language,computer,Java Language,test,exam">
+  <meta name="description" content="Free Latest 30 Minute-Online Test (Quiz) of Java Programming Language.Free Online Examination to check our ability before going to final war.">
+  <link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link href="http://www.pooripadhai.com/online-test/pooripadhai-test.css" type="text/css" rel="stylesheet" media="screen" />
+
+
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: rgba(48, 173, 209, 0.95);
+      padding: 25px;
+	  width:100%;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+	body  {
+   background-image: url("http://www.pooripadhai.com/background1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #30add1;
+    z-index: 9999;
+    border: 0;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #30add1 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.customHr {
+    width: 95%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 2px;
+
+    background-color: grey;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+
+
+
+	
+	
+	
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1886983901556004',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://www.pooripadhai.com"><img src="http://www.pooripadhai.com/favicon1.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	 
+        <li><a href="http://www.pooripadhai.com">Home</a></li>
+        <li><a href="http://www.pooripadhai.com">Courses</a></li>
+		<li><a href="http://www.pooripadhai.com">Faculty</a></li>
+		<li><a href="http://www.pooripadhai.com">About</a></li>
+        <li><a href="http://www.pooripadhai.com">Contact</a></li>
+      </ul>
+      
+	  <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center" style="margin-top:6.8%;">    
+  <div class="row content">
+   
+    <div class="well well-sm col-sm-9 text-left" style="margin-top:3.2%; margin-left:1%; margin-right:1%;   background-color:white;" id="front"> 
+	
+		<ol class="breadcrumb">
+	
+    <li ><a href="http://www.pooripadhai.com"><span class="glyphicon glyphicon-home"></span></a></li>
+    <li><a href="http://www.pooripadhai.com/online-test/online-test.html"><b>Online Test</b></a></li>
+	<li><a href="java.html"><b>Java Language</b></a></li>
+    <li class="active"><b>30 Minute-Test 1</b></li>	
+	
+  </ol>
+      
+      <h1>Java Language | 30 Minute&dash;Test 1</h1>
+	
+	  
+	  
+	       <div class="inner-page">
+        
+        
+
+      <input id="hdnTitleID" type="hidden" value="7" />
+        
+        
+        
+
+        
+        
+        <div >
+             <span id="idTimerSpan" style="color:red; display:none; padding-left:15px"><span class="ib-blue">Time Left:</span> <b id="idTimerLCD">00:30:00</b></span>
+        <input type="hidden" id="hdnTestTitleID"   value="1" />
+        <input type="hidden" id="hdnTestID"        value="1" />
+        <input type="hidden" id="hdnInitialTimer"  value="1800" /><!--Time can be change from here--> 
+        <input type="hidden" id="hdnTimer"         value="1800" />
+        </div>
+        
+        <div class="main-left">
+            
+<script type="text/javascript" charset="utf-8"> 
+function LoadTestRunnerPage()
+{
+    GeneralTestPageSpecificLoad();
+    $('#divLoading').remove();
+    $('#divStartTestInstruction').show();    
+}
+
+var _timerHandler = 0;
+var _txtTestStats = ''; /* Result Stats append with feedback text */
+
+function GeneralTestPageSpecificLoad()
+{         
+    $(".result-option").click(  function(){  OptionClickHandler(this);           });
+    
+    $("a.jq-menu").click(       function(){  TestTabMenuClickHandler(this);      });
+    
+    $('#btnStartTest').click(   function(){  StartTestButtonClickHandler(this);  });
+    
+    $('#btnSubmitTest').click(  function(){  SubmitTestButtonClickHandler(this); });
+   
+    InitializeTestPage();
+}
+
+function InitializeTestPage()
+{
+    LoadOtherPageSpecificFunctions();    
+    $('#divTabContent').hide();                    /* Initially hides the Test questions, Shows 'Start Test' button.*/
+    $('#btnSubmitTest').attr('disabled', 'disabled');
+}
+
+function LoadOtherPageSpecificFunctions()
+{
+    /* Invoke : Other Page Specific Functions  */
+    var txtTestTitleID  = $('#hdnTestTitleID').val();
+    if( txtTestTitleID == '2'  ||  /* C    */
+        txtTestTitleID == '13' ||  /* Java */
+        txtTestTitleID == '30' ||  /* C#   */
+        txtTestTitleID == '37'     /* CPP  */
+        )
+    StartCodeHighlight();
+}
+
+function SubmitTestButtonClickHandler(thisObj)
+{
+    var txtMsg = '';
+    var intUAC = $("input.jq-selected-answer[value='']").length;
+    if( intUAC > 0) txtMsg = "Total number of unanswered questions = " + intUAC + ".\n\n" ;
+    
+    if(confirm(txtMsg + 'Are you sure you want to submit the Test now?'))  /* Check for Time limit also. */
+    {
+        $(thisObj).attr('disabled', 'disabled');
+        PopulateResultStatics();
+    }
+}
+
+function StartTestButtonClickHandler(thisObj)
+{
+    /* 4 Lines - Firefox Combatability */
+    $('#divResult').html('');
+    $('.result-option').removeAttr('disabled');
+    $('.result-option').removeAttr('checked');
+    $('#hdnTimer').val( $('#hdnInitialTimer').val() );
+    
+    $('#divInitiator').remove();
+    $('#btnSubmitTest').removeAttr('disabled'); $('#divSubmitTest').show();
+    $('#divTabContent').show();
+    $('#idTimerSpan').show();
+    $('#divFloatTimer').show();
+    _timerHandler = setInterval( "MyTimer()" , 1000);
+}
+
+function OptionClickHandler(thisObj)
+{
+     var objID = thisObj.id;               //option_A_25     1 - A ; 2 - 25
+     var optAns = objID.split('_')[1];
+     var quesID = objID.split('_')[2];
+     var preVal = $("#optionSelAns_" + quesID).val();
+     
+     if(preVal == "")
+     {
+       $("#optionSelAns_" + quesID).val( optAns );     // set current option as answer.
+       $(thisObj).attr("checked" , "checked");
+       $('.jq-qno-' + quesID).addClass('ib-answered');
+     }
+     else if(preVal == optAns)
+     {
+        $("#optionSelAns_" + quesID).val("");
+        $(thisObj).removeAttr("checked");              //remove cur. object option check mark. 
+        $('.jq-qno-' + quesID).removeClass('ib-answered');
+     }
+     else
+     {
+        $("#optionSelAns_" + quesID).val( optAns ); 
+        $(".cls_" + quesID).removeAttr("checked");  // remove all check mark
+        $(thisObj).attr("checked" , "checked");        // set check mark to current one.
+        $('.jq-qno-' + quesID).addClass('ib-answered');
+     }
+}
+
+
+
+function MyTimer()
+{
+   var valueTimer = $('#hdnTimer').val(); 
+   
+   if(valueTimer > 0)
+   {
+       valueTimer = valueTimer - 1; 
+       
+       hours = (valueTimer/3600).toString().split('.')[0];
+       mins  = ((valueTimer % 3600) / 60).toString().split('.')[0]; 
+       secs  = ((valueTimer % 3600) % 60).toString(); 
+       
+       if(hours.length == 1) hours = '0' + hours; 
+       if(mins.length  == 1) mins  = '0' + mins; 
+       if(secs.length  == 1) secs  = '0' + secs; 
+       
+       $('#idTimerLCD').text( hours + ':' +  mins + ':'  + secs);
+       $('#hdnTimer').val( valueTimer );
+       
+       document.title = $('#idTimerLCD').text(); 
+       $('#idFloatTimerLCD').text( $('#idTimerLCD').text() ); 
+   }
+   else
+   {
+       $('#btnSubmitTest').attr('disabled', 'disabled');
+       alert(" Your time is up ! \n\n Let's see the Result & Statistics of the Test.");
+       PopulateResultStatics();
+   }
+}
+
+function PopulateResultStatics()
+{
+    clearInterval(_timerHandler);
+    $('#idTimerSpan').hide();
+    $('#divFloatTimer').hide();
+    document.title = 'Test Result';
+    $('.result-option').attr('disabled' , 'disabled');
+    $('.result-option').css('cursor' , 'auto');
+    
+    /* Populate result tab.   */
+    var txtHtml               = $('#divTabContent').html();
+    var objArrActualAnswer    = $('#divTabContent input.jq-actual-answer');
+    var objArrSelectedAnswer  = $('#divTabContent input.jq-selected-answer');
+    
+    $('#divTabContent').remove();       
+    $('#divSubmitTest').remove();       
+    
+    $('#divResult').html(txtHtml);
+    $('#divResult .jq-workspace').remove();
+    
+    var intTotalQuestions     = objArrActualAnswer.length;
+    var intAnsweredCount      = 0;
+    var intUnAnsweredCount    = 0;
+    var intCorrectAnswerCount = 0;
+    var intWrongAnswerCount   = 0;
+    var objArrUserAnswer      = $('#divResult span.jq-user-answer');
+    
+    /* Iteration for All Ques Answers - Populates Result Info. */
+    jQuery.each(objArrActualAnswer, function(i, obj)
+    {
+        
+        var optionActual   = $(obj).val();
+        var optionSelected = $(objArrSelectedAnswer[i]).val();
+        var quesID         = obj.id.split('_')[1];              // optionAnswer_45 (hidden)  
+        
+        if(optionSelected != '')
+        {   
+            //Radio Option ID :  optionAns_C_741
+            $('#divResult #optionAns_' + optionSelected + '_' + quesID).attr('checked', 'checked');
+            $('#divResult #tdAnswerIMG_' + optionSelected + '_' + quesID).show();
+            intAnsweredCount++;
+            if(optionSelected == optionActual) intCorrectAnswerCount++; else intWrongAnswerCount++;
+        
+            /* To display value for "Your answer:" */
+            $(objArrUserAnswer[i]).html(optionSelected);
+        }
+        
+        
+
+    });
+    
+    intUnAnsweredCount = intTotalQuestions -  intAnsweredCount;
+    
+    /* Sets results Statistics info.  */
+    var tmpResStat = $('#divResultStatistics').html();
+    tmpResStat = tmpResStat.replace('[XX/XX]' , intCorrectAnswerCount + '/' + intTotalQuestions);
+    tmpResStat = tmpResStat.replace('[TQ]'    , intTotalQuestions);
+    tmpResStat = tmpResStat.replace('[AQ]'    , intAnsweredCount);
+    tmpResStat = tmpResStat.replace('[UQ]'    , intUnAnsweredCount);
+    $('#divResultStatistics').html(tmpResStat);
+	
+	document.getElementById("percentage").innerHTML=((intCorrectAnswerCount*100)/intTotalQuestions).toFixed(0)+"%"
+    $('#divResult .pp-div-answer').show();        /* Makes visible all AnsDesc. divs.  */
+   
+    /* Initial Swap to Result Stat. Tab */
+    $('#divResult').show();  $('#divResultStatistics').show();  $('#divFeedback').show();
+    
+    window.scroll(0,0); /* Scrolls up the window. */
+    
+    
+    var totalTime = parseInt($('#hdnInitialTimer').val())/60;
+    var timeTaken = (totalTime*60) - parseInt($('#hdnTimer').val());
+    
+    _txtTestStats  =    " [ TotQ="   + intTotalQuestions      + 
+                        ", AnsQ="     + intAnsweredCount       +
+                        ", UnAnsQ="   + intUnAnsweredCount     +
+                        ", CorAns="   + intCorrectAnswerCount  +
+                        ", WrongAns=" + intWrongAnswerCount    +
+                        ", TotTime="     + totalTime   +
+                        "min, TimeTaken="     + timeTaken +"sec]"  ;
+      
+}
+
+</script>
+
+
+            
+            <div id="divFloatTimer" align="center" style="display:none; padding:10px; position:fixed; z-index:3000000; bottom:10px; left:1px; width:auto; background-color:#ff0222; color:white; ">
+                Time Left: <span id="idFloatTimerLCD" style="font-weight:bold"></span>
+            </div>
+        
+        <hr />
+        
+        <div id="divResultStatistics" style="display:none; width:100%; padding-top:5px;">
+        
+            <table class="ib-dgray" cellspacing="0" cellpadding="4" style="font-size:12px; border:2px solid #ADD8E6; background-color:#fafafa;" width="100%">
+            <tr><td align="center" bgcolor="#ADD8E6" colspan="3" style="font-size:120%"><b>Marks : [XX/XX] </b></td></tr>
+            
+			<tr >
+                <td>&nbsp; Total number of questions</td>
+                <td width="1%">:</td>
+                <td width="10%" nowrap="nowrap" align="right" style="padding-right:40px"><b>[TQ]</b></td>
+            </tr>
+            <tr>
+                <td>&nbsp; Number of answered questions</td>
+                <td width="1%">:</td>
+                <td align="right" style="padding-right:40px"><b>[AQ]</b></td>
+            </tr>
+            <tr>
+                <td>&nbsp; Number of unanswered questions</td>
+                <td width="1%">:</td>
+                <td align="right" style="padding-right:40px"><b>[UQ]</b></td>
+            </tr>
+			<tr>
+                <td>&nbsp; Percentage</td>
+                <td width="1%">:</td>
+                <td align="right" style="padding-right:27px;"><b id="percentage"></b></td>
+            </tr>
+			
+            </table>
+            
+            <br /><h3><span class="ib-blue">Test Review :</span> Answers and Explanation of Test.</h3><hr />
+
+        </div>
+
+        <div class="div-test-initiator" id="divInitiator">
+             
+             <div class="mx-none" id="divStartTestInstruction">
+                <div class="div-test-instruction">
+            <p class="ib-blue mx-bold" style="font-size:145%;color:orange; margin-bottom:2.5%;">Instruction</p>
+            <ul class="ul-test-instruction" style="font-size:110%;">
+            <li>Total number of questions : <b>30</b>.</li>
+            <li>Time alloted : <b>30</b> minutes.</li>
+            <li>Each question carry <b>1</b> mark.</li>
+			<li><b>No Negative</b> marks</li>
+            <li>DO NOT refresh the page.</li>
+            <li>All the best :-).</li>
+            </ul>
+         </div>
+             <p align="center" style="margin-top:5%;"><input type="button" class="btn btn-primary btn-md" value="    Start Test   " id="btnStartTest" /></p>
+             </div>
+        </div>
+        
+        <div id="divTabContent" style="width:100%;"  class="mx-none"> 
+            <div class="pp-div-container">
+			
+			
+			
+			
+			<!--Enter all your Questions-->
+			
+			
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654321 goodlooking"  rowspan="2" valign="top" align="left"><b>1.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            An expression involving byte, int, and literal numbers is promoted to which of these?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654321" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654321"><input type="checkbox" class="result-option cls_7654321" id="optionAns_A_7654321"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654321">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">int</td>
+                        <td id="tdAnswerIMG_A_7654321" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654321"><input type="checkbox" class="result-option cls_7654321" id="optionAns_B_7654321"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654321">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">long</td>
+                        <td id="tdAnswerIMG_B_7654321" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654321"><input type="checkbox" class="result-option cls_7654321" id="optionAns_C_7654321"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654321">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">byte</td>
+                        <td id="tdAnswerIMG_C_7654321" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654321"><input type="checkbox" class="result-option cls_7654321" id="optionAns_D_7654321"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654321">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">float</td>
+                        <td id="tdAnswerIMG_D_7654321" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654321" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654321" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654321">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>An expression involving bytes, ints, shorts, literal numbers, the entire expression is promoted to int before any calculation is done.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654322 goodlooking"  rowspan="2" valign="top" align="left"><b>2.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these occupy first 0 to 127 in Unicode character set used for characters in Java?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654322" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654322"><input type="checkbox" class="result-option cls_7654322" id="optionAns_A_7654322"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654322">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">ASCII</td>
+                        <td id="tdAnswerIMG_A_7654322" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654322"><input type="checkbox" class="result-option cls_7654322" id="optionAns_B_7654322"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654322">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">ISO-LATIN-1</td>
+                        <td id="tdAnswerIMG_B_7654322" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654322"><input type="checkbox" class="result-option cls_7654322" id="optionAns_C_7654322"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654322">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">None of the mentioned</td>
+                        <td id="tdAnswerIMG_C_7654322" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654322"><input type="checkbox" class="result-option cls_7654322" id="optionAns_D_7654322"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654322">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">ASCII and ISO-LATIN1</td>
+                        <td id="tdAnswerIMG_D_7654322" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654322" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654322" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654322">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>First 0 to 127 character set in Unicode are same as those of ISO-LAIN-1 and ASCII.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->	
+
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654323 goodlooking"  rowspan="2" valign="top" align="left"><b>3.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Literal can be of which of these data types?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654323" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654323"><input type="checkbox" class="result-option cls_7654323" id="optionAns_A_7654323"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654323">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">integer</td>
+                        <td id="tdAnswerIMG_A_7654323" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654323"><input type="checkbox" class="result-option cls_7654323" id="optionAns_B_7654323"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654323">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">float</td>
+                        <td id="tdAnswerIMG_B_7654323" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654323"><input type="checkbox" class="result-option cls_7654323" id="optionAns_C_7654323"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654323">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">boolean</td>
+                        <td id="tdAnswerIMG_C_7654323" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654323"><input type="checkbox" class="result-option cls_7654323" id="optionAns_D_7654323"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654323">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">all of the mentioned</td>
+                        <td id="tdAnswerIMG_D_7654323" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654323" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654323" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654323">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654324 goodlooking"  rowspan="2" valign="top" align="left"><b>4.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654324" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654324"><input type="checkbox" class="result-option cls_7654324" id="optionAns_A_7654324"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654324">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> long</td>
+                        <td id="tdAnswerIMG_A_7654324" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654324"><input type="checkbox" class="result-option cls_7654324" id="optionAns_B_7654324"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654324">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">int</td>
+                        <td id="tdAnswerIMG_B_7654324" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654324"><input type="checkbox" class="result-option cls_7654324" id="optionAns_C_7654324"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654324">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">double</td>
+                        <td id="tdAnswerIMG_C_7654324" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654324"><input type="checkbox" class="result-option cls_7654324" id="optionAns_D_7654324"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654324">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">float</td>
+                        <td id="tdAnswerIMG_D_7654324" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654324" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654324" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654324">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>If any operand is double the result of expression is double.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654325 goodlooking"  rowspan="2" valign="top" align="left"><b>5.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these is an incorrect Statement?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654325" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654325"><input type="checkbox" class="result-option cls_7654325" id="optionAns_A_7654325"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654325">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">It is necessary to use new operator to initialize an array.</td>
+                        <td id="tdAnswerIMG_A_7654325" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654325"><input type="checkbox" class="result-option cls_7654325" id="optionAns_B_7654325"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654325">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Array can be initialized using comma separated expressions surrounded by curly braces.</td>
+                        <td id="tdAnswerIMG_B_7654325" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654325"><input type="checkbox" class="result-option cls_7654325" id="optionAns_C_7654325"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654325">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Array can be initialized when they are declared.</td>
+                        <td id="tdAnswerIMG_C_7654325" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654325"><input type="checkbox" class="result-option cls_7654325" id="optionAns_D_7654325"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654325">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">None of the mentioned</td>
+                        <td id="tdAnswerIMG_D_7654325" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654325" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654325" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654325">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>Array can be initialized using both new and comma separated expressions surrounded by curly braces example : int arr[5] = new int[5]; and int arr[] = { 0, 1, 2, 3, 4};</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654326 goodlooking"  rowspan="2" valign="top" align="left"><b>6.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+             Decrement operator, −−, decreases value of variable by what number?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654326" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654326"><input type="checkbox" class="result-option cls_7654326" id="optionAns_A_7654326"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654326">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">1</td>
+                        <td id="tdAnswerIMG_A_7654326" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654326"><input type="checkbox" class="result-option cls_7654326" id="optionAns_B_7654326"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654326">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">2</td>
+                        <td id="tdAnswerIMG_B_7654326" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654326"><input type="checkbox" class="result-option cls_7654326" id="optionAns_C_7654326"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654326">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">3</td>
+                        <td id="tdAnswerIMG_C_7654326" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654326"><input type="checkbox" class="result-option cls_7654326" id="optionAns_D_7654326"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654326">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">4</td>
+                        <td id="tdAnswerIMG_D_7654326" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654326" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654326" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654326">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654327 goodlooking"  rowspan="2" valign="top" align="left"><b>7.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which right shift operator preserves the sign of the value?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654327" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654327"><input type="checkbox" class="result-option cls_7654327" id="optionAns_A_7654327"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654327">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">&lt;&lt;</td>
+                        <td id="tdAnswerIMG_A_7654327" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654327"><input type="checkbox" class="result-option cls_7654327" id="optionAns_B_7654327"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654327">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">>></td>
+                        <td id="tdAnswerIMG_B_7654327" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654327"><input type="checkbox" class="result-option cls_7654327" id="optionAns_C_7654327"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654327">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">&lt;&lt;=</td>
+                        <td id="tdAnswerIMG_C_7654327" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654327"><input type="checkbox" class="result-option cls_7654327" id="optionAns_D_7654327"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654327">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">>>=</td>
+                        <td id="tdAnswerIMG_D_7654327" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654327" value="B" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654327" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654327">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">B</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654328 goodlooking"  rowspan="2" valign="top" align="left"><b>8.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these operators can skip evaluating right hand operand?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654328" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654328"><input type="checkbox" class="result-option cls_7654328" id="optionAns_A_7654328"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654328">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">!</td>
+                        <td id="tdAnswerIMG_A_7654328" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654328"><input type="checkbox" class="result-option cls_7654328" id="optionAns_B_7654328"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654328">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">|</td>
+                        <td id="tdAnswerIMG_B_7654328" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654328"><input type="checkbox" class="result-option cls_7654328" id="optionAns_C_7654328"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654328">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">&amp;</td>
+                        <td id="tdAnswerIMG_C_7654328" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654328"><input type="checkbox" class="result-option cls_7654328" id="optionAns_D_7654328"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654328">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">&&</td>
+                        <td id="tdAnswerIMG_D_7654328" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654328" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654328" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654328">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>Operator short circuit and, &&, and short circuit or, ||, skip evaluating right hand operand when output can be determined by left operand alone.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654329 goodlooking"  rowspan="2" valign="top" align="left"><b>9.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            What is the order of precedence (highest to lowest) of following operators?<br/>
+1. &amp;<br/>
+2. ^<br/>
+3. ?:
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654329" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654329"><input type="checkbox" class="result-option cls_7654329" id="optionAns_A_7654329"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654329">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">1 -> 2 -> 3</td>
+                        <td id="tdAnswerIMG_A_7654329" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654329"><input type="checkbox" class="result-option cls_7654329" id="optionAns_B_7654329"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654329">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">2 -> 1 -> 3</td>
+                        <td id="tdAnswerIMG_B_7654329" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654329"><input type="checkbox" class="result-option cls_7654329" id="optionAns_C_7654329"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654329">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">3 -> 2 -> 1</td>
+                        <td id="tdAnswerIMG_C_7654329" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654329"><input type="checkbox" class="result-option cls_7654329" id="optionAns_D_7654329"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654329">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">2 -> 3 -> 1</td>
+                        <td id="tdAnswerIMG_D_7654329" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654329" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654329" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654329">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654330 goodlooking"  rowspan="2" valign="top" align="left"><b>10.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these jump statements can skip processing remainder of code in its body for a particular iteration?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654330" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654330"><input type="checkbox" class="result-option cls_7654330" id="optionAns_A_7654330"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654330">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">break</td>
+                        <td id="tdAnswerIMG_A_7654330" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654330"><input type="checkbox" class="result-option cls_7654330" id="optionAns_B_7654330"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654330">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">return</td>
+                        <td id="tdAnswerIMG_B_7654330" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654330"><input type="checkbox" class="result-option cls_7654330" id="optionAns_C_7654330"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654330">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">exit</td>
+                        <td id="tdAnswerIMG_C_7654330" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654330"><input type="checkbox" class="result-option cls_7654330" id="optionAns_D_7654330"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654330">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">continue</td>
+                        <td id="tdAnswerIMG_D_7654330" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654330" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654330" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654330">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654331 goodlooking"  rowspan="2" valign="top" align="left"><b>11.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these operators is used to allocate memory for an object?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654331" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654331"><input type="checkbox" class="result-option cls_7654331" id="optionAns_A_7654331"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654331">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">malloc</td>
+                        <td id="tdAnswerIMG_A_7654331" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654331"><input type="checkbox" class="result-option cls_7654331" id="optionAns_B_7654331"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654331">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">alloc</td>
+                        <td id="tdAnswerIMG_B_7654331" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654331"><input type="checkbox" class="result-option cls_7654331" id="optionAns_C_7654331"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654331">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">new</td>
+                        <td id="tdAnswerIMG_C_7654331" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654331"><input type="checkbox" class="result-option cls_7654331" id="optionAns_D_7654331"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654331">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">give</td>
+                        <td id="tdAnswerIMG_D_7654331" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654331" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654331" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654331">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>Operator new dynamically allocates memory for an object and returns a reference to it. This reference is address in memory of the object allocated by new.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654332 goodlooking"  rowspan="2" valign="top" align="left"><b>12.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which method can be defined only once in a program?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654332" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654332"><input type="checkbox" class="result-option cls_7654332" id="optionAns_A_7654332"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654332">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">main method</td>
+                        <td id="tdAnswerIMG_A_7654332" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654332"><input type="checkbox" class="result-option cls_7654332" id="optionAns_B_7654332"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654332">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">finalize method</td>
+                        <td id="tdAnswerIMG_B_7654332" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654332"><input type="checkbox" class="result-option cls_7654332" id="optionAns_C_7654332"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654332">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">static method</td>
+                        <td id="tdAnswerIMG_C_7654332" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654332"><input type="checkbox" class="result-option cls_7654332" id="optionAns_D_7654332"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654332">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">private method</td>
+                        <td id="tdAnswerIMG_D_7654332" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654332" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654332" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654332">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>main() method can be defined only once in a program. Program execution begins from the main() method by java’s run time system.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654333 goodlooking"  rowspan="2" valign="top" align="left"><b>13.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654333" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654333"><input type="checkbox" class="result-option cls_7654333" id="optionAns_A_7654333"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654333">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">delete</td>
+                        <td id="tdAnswerIMG_A_7654333" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654333"><input type="checkbox" class="result-option cls_7654333" id="optionAns_B_7654333"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654333">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">free</td>
+                        <td id="tdAnswerIMG_B_7654333" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654333"><input type="checkbox" class="result-option cls_7654333" id="optionAns_C_7654333"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654333">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">new</td>
+                        <td id="tdAnswerIMG_C_7654333" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654333"><input type="checkbox" class="result-option cls_7654333" id="optionAns_D_7654333"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654333">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">None of the mentioned</td>
+                        <td id="tdAnswerIMG_D_7654333" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654333" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654333" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654333">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>Java handles deallocation of memory automatically, we do not need to explicitly delete an element. Garbage collection only occurs during execution of the program. When no references to the object exist, that object is assumed to be no longer needed, and the memory occupied by the object can be reclaimed.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654334 goodlooking"  rowspan="2" valign="top" align="left"><b>14.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+             What is the process of defining a method in terms of itself, that is a method that calls itself?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654334" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654334"><input type="checkbox" class="result-option cls_7654334" id="optionAns_A_7654334"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654334">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Polymorphism</td>
+                        <td id="tdAnswerIMG_A_7654334" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654334"><input type="checkbox" class="result-option cls_7654334" id="optionAns_B_7654334"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654334">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Abstraction</td>
+                        <td id="tdAnswerIMG_B_7654334" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654334"><input type="checkbox" class="result-option cls_7654334" id="optionAns_C_7654334"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654334">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Encapsulation</td>
+                        <td id="tdAnswerIMG_C_7654334" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654334"><input type="checkbox" class="result-option cls_7654334" id="optionAns_D_7654334"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654334">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Recursion</td>
+                        <td id="tdAnswerIMG_D_7654334" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654334" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654334" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654334">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654335 goodlooking"  rowspan="2" valign="top" align="left"><b>15.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            What is the process by which we can control what parts of a program can access the members of a class?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654335" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654335"><input type="checkbox" class="result-option cls_7654335" id="optionAns_A_7654335"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654335">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Polymorphism</td>
+                        <td id="tdAnswerIMG_A_7654335" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654335"><input type="checkbox" class="result-option cls_7654335" id="optionAns_B_7654335"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654335">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Abstraction</td>
+                        <td id="tdAnswerIMG_B_7654335" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654335"><input type="checkbox" class="result-option cls_7654335" id="optionAns_C_7654335"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654335">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Encapsulation</td>
+                        <td id="tdAnswerIMG_C_7654335" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654335"><input type="checkbox" class="result-option cls_7654335" id="optionAns_D_7654335"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654335">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Recursion</td>
+                        <td id="tdAnswerIMG_D_7654335" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654335" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654335" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654335">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654336 goodlooking"  rowspan="2" valign="top" align="left"><b>16.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of the following statements are incorrect?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654336" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654336"><input type="checkbox" class="result-option cls_7654336" id="optionAns_A_7654336"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654336">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">static methods can call other static methods only.</td>
+                        <td id="tdAnswerIMG_A_7654336" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654336"><input type="checkbox" class="result-option cls_7654336" id="optionAns_B_7654336"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654336">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">static methods must only access static data.</td>
+                        <td id="tdAnswerIMG_B_7654336" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654336"><input type="checkbox" class="result-option cls_7654336" id="optionAns_C_7654336"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654336">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">static methods can not refer to this or super in any way.</td>
+                        <td id="tdAnswerIMG_C_7654336" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654336"><input type="checkbox" class="result-option cls_7654336" id="optionAns_D_7654336"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654336">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">when object of class is declared, each object contains its own copy of static variables.</td>
+                        <td id="tdAnswerIMG_D_7654336" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654336" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654336" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654336">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>All objects of class share same static variable, when object of a class are declared, all the objects share same copy of static members, no copy of static variables are made.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654337 goodlooking"  rowspan="2" valign="top" align="left"><b>17.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these method of String class can be used to test to strings for equality?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654337" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654337"><input type="checkbox" class="result-option cls_7654337" id="optionAns_A_7654337"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654337">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">isequal()</td>
+                        <td id="tdAnswerIMG_A_7654337" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654337"><input type="checkbox" class="result-option cls_7654337" id="optionAns_B_7654337"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654337">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">isequals()</td>
+                        <td id="tdAnswerIMG_B_7654337" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654337"><input type="checkbox" class="result-option cls_7654337" id="optionAns_C_7654337"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654337">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">equal()</td>
+                        <td id="tdAnswerIMG_C_7654337" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654337"><input type="checkbox" class="result-option cls_7654337" id="optionAns_D_7654337"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654337">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">equals()</td>
+                        <td id="tdAnswerIMG_D_7654337" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654337" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654337" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654337">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654338 goodlooking"  rowspan="2" valign="top" align="left"><b>18.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these is correct way of inheriting class A by class B?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654338" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654338"><input type="checkbox" class="result-option cls_7654338" id="optionAns_A_7654338"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654338">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">class B + class A {}</td>
+                        <td id="tdAnswerIMG_A_7654338" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654338"><input type="checkbox" class="result-option cls_7654338" id="optionAns_B_7654338"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654338">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> class B inherits class A {}</td>
+                        <td id="tdAnswerIMG_B_7654338" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654338"><input type="checkbox" class="result-option cls_7654338" id="optionAns_C_7654338"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654338">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">class B extends A {}</td>
+                        <td id="tdAnswerIMG_C_7654338" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654338"><input type="checkbox" class="result-option cls_7654338" id="optionAns_D_7654338"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654338">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">class B extends class A {}</td>
+                        <td id="tdAnswerIMG_D_7654338" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654338" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654338" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654338">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p> None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654339 goodlooking"  rowspan="2" valign="top" align="left"><b>19.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+           Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654339" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654339"><input type="checkbox" class="result-option cls_7654339" id="optionAns_A_7654339"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654339">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">super(void);</td>
+                        <td id="tdAnswerIMG_A_7654339" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654339"><input type="checkbox" class="result-option cls_7654339" id="optionAns_B_7654339"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654339">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">superclass.();</td>
+                        <td id="tdAnswerIMG_B_7654339" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654339"><input type="checkbox" class="result-option cls_7654339" id="optionAns_C_7654339"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654339">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">super.A();</td>
+                        <td id="tdAnswerIMG_C_7654339" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654339"><input type="checkbox" class="result-option cls_7654339" id="optionAns_D_7654339"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654339">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">super();</td>
+                        <td id="tdAnswerIMG_D_7654339" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654339" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654339" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654339">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654340 goodlooking"  rowspan="2" valign="top" align="left"><b>20.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these keywords can be used to prevent inheritance of a class?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654340" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654340"><input type="checkbox" class="result-option cls_7654340" id="optionAns_A_7654340"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654340">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">super</td>
+                        <td id="tdAnswerIMG_A_7654340" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654340"><input type="checkbox" class="result-option cls_7654340" id="optionAns_B_7654340"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654340">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">constant</td>
+                        <td id="tdAnswerIMG_B_7654340" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654340"><input type="checkbox" class="result-option cls_7654340" id="optionAns_C_7654340"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654340">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Class</td>
+                        <td id="tdAnswerIMG_C_7654340" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654340"><input type="checkbox" class="result-option cls_7654340" id="optionAns_D_7654340"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654340">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">final</td>
+                        <td id="tdAnswerIMG_D_7654340" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654340" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654340" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654340">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p> Declaring a class final implicitly declares all of its methods final, and makes the class inheritable.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654341 goodlooking"  rowspan="2" valign="top" align="left"><b>21.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these method of class String is used to extract a single character from a String object?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654341" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654341"><input type="checkbox" class="result-option cls_7654341" id="optionAns_A_7654341"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654341">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">CHARAT()</td>
+                        <td id="tdAnswerIMG_A_7654341" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654341"><input type="checkbox" class="result-option cls_7654341" id="optionAns_B_7654341"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654341">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">chatat()</td>
+                        <td id="tdAnswerIMG_B_7654341" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654341"><input type="checkbox" class="result-option cls_7654341" id="optionAns_C_7654341"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654341">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">charAt()</td>
+                        <td id="tdAnswerIMG_C_7654341" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654341"><input type="checkbox" class="result-option cls_7654341" id="optionAns_D_7654341"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654341">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> ChatAt()</td>
+                        <td id="tdAnswerIMG_D_7654341" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654341" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654341" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654341">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654342 goodlooking"  rowspan="2" valign="top" align="left"><b>22.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+		 What will be output of the following code?
+           <p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">public</span></strong> <strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">class</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> Boxer1 </span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">{</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 10.0pt; font-family: Consolas; color: #003399; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">Integer</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> i</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;&nbsp;&nbsp; </span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: #000066; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">int</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> x</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;</span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">public</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> Boxer1</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">(</span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: #000066; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">int</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> y</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">)</span> <span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">{</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;&nbsp;&nbsp; x </span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">=</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> i</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">+</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">y</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 10.0pt; font-family: Consolas; color: #003399; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">System</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">.</span><span style="font-size: 10.0pt; font-family: Consolas; color: #006633; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">out</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">.</span><span style="font-size: 10.0pt; font-family: Consolas; color: #006633; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">println</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">(</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">x</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">)</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">}</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;</span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">public</span></strong> <strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">static</span></strong> <strong><span style="font-size: 10.0pt; font-family: Consolas; color: #000066; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">void</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> main</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">(</span><span style="font-size: 10.0pt; font-family: Consolas; color: #003399; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">String</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">[]</span><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> args</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">)</span> <span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">{</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;&nbsp;&nbsp; </span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">new</span></strong><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;"> Boxer1 </span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">(</span><strong><span style="font-size: 10.0pt; font-family: Consolas; color: black; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">new</span></strong> <span style="font-size: 10.0pt; font-family: Consolas; color: #003399; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">Integer</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">(</span><span style="font-size: 10.0pt; font-family: Consolas; color: #cc66cc; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">4</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">))</span><span style="font-size: 10.0pt; font-family: Consolas; color: #339933; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #333333;">&nbsp;</span><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">}</span></p>
+<p style="text-align: justify; line-height: 15.0pt; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; background: #F4F4F4; vertical-align: top; word-break: break-all; margin: 0in 0in .0001pt 33.0pt;"><span style="font-size: 10.0pt; font-family: Consolas; color: #009900; border: none windowtext 1.0pt; padding: 0in; background: #F4F4F4;">}</span></p>
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654342" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654342"><input type="checkbox" class="result-option cls_7654342" id="optionAns_A_7654342"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654342">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">The value “4” is printed at the command line</td>
+                        <td id="tdAnswerIMG_A_7654342" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654342"><input type="checkbox" class="result-option cls_7654342" id="optionAns_B_7654342"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654342">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> Compilation fails because of an error in line</td>
+                        <td id="tdAnswerIMG_B_7654342" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654342"><input type="checkbox" class="result-option cls_7654342" id="optionAns_C_7654342"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654342">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">A NullPointerException occurs at runtime</td>
+                        <td id="tdAnswerIMG_C_7654342" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654342"><input type="checkbox" class="result-option cls_7654342" id="optionAns_D_7654342"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654342">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">An IllegalStateException occurs at runtime</td>
+                        <td id="tdAnswerIMG_D_7654342" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654342" value="D" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654342" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654342">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">D</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>Because we are performing operation on reference variable which is null.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654343 goodlooking"  rowspan="2" valign="top" align="left"><b>23.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            What is the value returned by function compareTo() if the invoking string is greater than the string compared?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654343" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654343"><input type="checkbox" class="result-option cls_7654343" id="optionAns_A_7654343"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654343">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">zero</td>
+                        <td id="tdAnswerIMG_A_7654343" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654343"><input type="checkbox" class="result-option cls_7654343" id="optionAns_B_7654343"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654343">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">value less than zero</td>
+                        <td id="tdAnswerIMG_B_7654343" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654343"><input type="checkbox" class="result-option cls_7654343" id="optionAns_C_7654343"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654343">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">value greater than zero</td>
+                        <td id="tdAnswerIMG_C_7654343" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654343"><input type="checkbox" class="result-option cls_7654343" id="optionAns_D_7654343"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654343">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">None of the mentioned</td>
+                        <td id="tdAnswerIMG_D_7654343" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654343" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654343" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654343">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p> if (s1 == s2) then 0, if(s1 > s2) > 0, if (s1 < s2) then < 0.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654344 goodlooking"  rowspan="2" valign="top" align="left"><b>24.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            What is the string contained in s after following lines of code?<br/>
+StringBuffer s new StringBuffer(“Hello”);<br/>
+s.deleteCharAt(0);
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654344" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654344"><input type="checkbox" class="result-option cls_7654344" id="optionAns_A_7654344"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654344">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Hell</td>
+                        <td id="tdAnswerIMG_A_7654344" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654344"><input type="checkbox" class="result-option cls_7654344" id="optionAns_B_7654344"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654344">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">ello</td>
+                        <td id="tdAnswerIMG_B_7654344" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654344"><input type="checkbox" class="result-option cls_7654344" id="optionAns_C_7654344"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654344">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Hel</td>
+                        <td id="tdAnswerIMG_C_7654344" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654344"><input type="checkbox" class="result-option cls_7654344" id="optionAns_D_7654344"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654344">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">llo</td>
+                        <td id="tdAnswerIMG_D_7654344" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654344" value="B" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654344" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654344">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">B</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>deleteCharAt() method deletes the character at the specified index location and returns the resulting StringBuffer object.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654345 goodlooking"  rowspan="2" valign="top" align="left"><b>25.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these method of class StringBuffer is used to get the length of sequence of characters?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654345" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654345"><input type="checkbox" class="result-option cls_7654345" id="optionAns_A_7654345"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654345">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">length()</td>
+                        <td id="tdAnswerIMG_A_7654345" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654345"><input type="checkbox" class="result-option cls_7654345" id="optionAns_B_7654345"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654345">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> capacity()</td>
+                        <td id="tdAnswerIMG_B_7654345" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654345"><input type="checkbox" class="result-option cls_7654345" id="optionAns_C_7654345"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654345">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> Length()</td>
+                        <td id="tdAnswerIMG_C_7654345" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654345"><input type="checkbox" class="result-option cls_7654345" id="optionAns_D_7654345"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654345">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> Capacity()</td>
+                        <td id="tdAnswerIMG_D_7654345" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654345" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654345" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654345">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>length()- returns the length of String the StringBuffer would create whereas capacity() returns total number of characters that can be supported before it is grown.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654346 goodlooking"  rowspan="2" valign="top" align="left"><b>26.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            What is the value returned by unction compareTo() if the invoking string is less than the string compared?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654346" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654346"><input type="checkbox" class="result-option cls_7654346" id="optionAns_A_7654346"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654346">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">zero</td>
+                        <td id="tdAnswerIMG_A_7654346" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654346"><input type="checkbox" class="result-option cls_7654346" id="optionAns_B_7654346"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654346">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">value less than zero</td>
+                        <td id="tdAnswerIMG_B_7654346" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654346"><input type="checkbox" class="result-option cls_7654346" id="optionAns_C_7654346"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654346">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">value greater than zero</td>
+                        <td id="tdAnswerIMG_C_7654346" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654346"><input type="checkbox" class="result-option cls_7654346" id="optionAns_D_7654346"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654346">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">None of the mentioned</td>
+                        <td id="tdAnswerIMG_D_7654346" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654346" value="B" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654346" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654346">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">B</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>compareTo() function returns zero when both the strings are equal, it returns a value less than zero if the invoking string is less than the other string being compared and value greater than zero when invoking string is greater than the string compared to.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654347 goodlooking"  rowspan="2" valign="top" align="left"><b>27.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these access specifiers can be used for a class so that it’s members can be accessed by a different class in the different package?
+			
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654347" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654347"><input type="checkbox" class="result-option cls_7654347" id="optionAns_A_7654347"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654347">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Public</td>
+                        <td id="tdAnswerIMG_A_7654347" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654347"><input type="checkbox" class="result-option cls_7654347" id="optionAns_B_7654347"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654347">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Protected</td>
+                        <td id="tdAnswerIMG_B_7654347" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654347"><input type="checkbox" class="result-option cls_7654347" id="optionAns_C_7654347"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654347">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Private</td>
+                        <td id="tdAnswerIMG_C_7654347" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654347"><input type="checkbox" class="result-option cls_7654347" id="optionAns_D_7654347"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654347">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">No Modifier</td>
+                        <td id="tdAnswerIMG_D_7654347" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654347" value="A" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654347" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654347">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">A</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654348 goodlooking"  rowspan="2" valign="top" align="left"><b>28.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these keywords is used by a class to use an interface defined previously?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654348" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654348"><input type="checkbox" class="result-option cls_7654348" id="optionAns_A_7654348"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654348">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">import</td>
+                        <td id="tdAnswerIMG_A_7654348" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654348"><input type="checkbox" class="result-option cls_7654348" id="optionAns_B_7654348"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654348">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Import</td>
+                        <td id="tdAnswerIMG_B_7654348" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654348"><input type="checkbox" class="result-option cls_7654348" id="optionAns_C_7654348"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654348">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">implements</td>
+                        <td id="tdAnswerIMG_C_7654348" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654348"><input type="checkbox" class="result-option cls_7654348" id="optionAns_D_7654348"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654348">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> Implements</td>
+                        <td id="tdAnswerIMG_D_7654348" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654348" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654348" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654348">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p> interface is inherited by a class using implements.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654349 goodlooking"  rowspan="2" valign="top" align="left"><b>29.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these is wrapper for simple data type float?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654349" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654349"><input type="checkbox" class="result-option cls_7654349" id="optionAns_A_7654349"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654349">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">float</td>
+                        <td id="tdAnswerIMG_A_7654349" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654349"><input type="checkbox" class="result-option cls_7654349" id="optionAns_B_7654349"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654349">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">double</td>
+                        <td id="tdAnswerIMG_B_7654349" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654349"><input type="checkbox" class="result-option cls_7654349" id="optionAns_C_7654349"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654349">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Float</td>
+                        <td id="tdAnswerIMG_C_7654349" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654349"><input type="checkbox" class="result-option cls_7654349" id="optionAns_D_7654349"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654349">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Double</td>
+                        <td id="tdAnswerIMG_D_7654349" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654349" value="C" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654349" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654349">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">C</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->
+
+
+
+<!--Question Start-->
+
+<table class="pp-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+<!--Question Description-->
+   <tr>
+      <td class="pp-td-qno jq-qno-7654350 goodlooking"  rowspan="2" valign="top" align="left"><b>30.</b></td>
+      <td class="pp-td-qtxt" valign="top">
+         <p class="goodlooking">
+            Which of these is wrapper for simple data type char?
+         </p>
+      </td>
+   </tr>
+   
+<!-- End Question Description-->
+   
+
+<!--Question Option Here-->
+   
+   <tr>
+      <td class="pp-td-miscell" valign="top">
+         <table class="pp-tbl-options" id="tblOption_7654350" border="0" cellpadding="0" cellspacing="0" width="100%">
+		 
+		 <!--Option 1-->
+		 
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_A_7654350"><input type="checkbox" class="result-option cls_7654350" id="optionAns_A_7654350"></td>
+               <td class="pp-td-option goodlooking" width="1%">A.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_A_7654350">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Float</td>
+                        <td id="tdAnswerIMG_A_7654350" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 2-->
+            
+			<tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_B_7654350"><input type="checkbox" class="result-option cls_7654350" id="optionAns_B_7654350"></td>
+               <td class="pp-td-option goodlooking" width="1%">B.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_B_7654350">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">Character</td>
+                        <td id="tdAnswerIMG_B_7654350" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/right.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 3-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_C_7654350"><input type="checkbox" class="result-option cls_7654350" id="optionAns_C_7654350"></td>
+               <td class="pp-td-option goodlooking" width="1%">C.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_C_7654350">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking">String</td>
+                        <td id="tdAnswerIMG_C_7654350" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--Option 4-->
+			
+            <tr>
+               <td nowrap="nowrap" class="pp-td-option pp-td-radio" width="1%"  id="tdOptionNo_D_7654350"><input type="checkbox" class="result-option cls_7654350" id="optionAns_D_7654350"></td>
+               <td class="pp-td-option goodlooking" width="1%">D.</td>
+               <td class="pp-td-option goodlooking" width="99%" id="tdOptionDt_D_7654350">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td class="pp-inner-td-option goodlooking"> Integer</td>
+                        <td id="tdAnswerIMG_D_7654350" class="jq-img-answer mx-none mx-lpad-10"  valign="middle">               
+                           <img src="http://www.pooripadhai.com/online-test/wrong.png" alt="" />  
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+			
+			<!--End Question Option -->
+			
+         </table>
+         <input type="hidden" class="jq-actual-answer"   id="optionAnswer_7654350" value="B" />
+         <input type="hidden" class="jq-selected-answer" id="optionSelAns_7654350" value="" />
+         <div class="pp-div-answer mx-none" id="divAnswer_7654350">
+            <div class="div-ans-des-wrapper">
+               <p><span class="ib-blue">Your Answer:</span> Option <span class="jq-user-answer ib-gray ib-bold">(Not Answered)</span></p>
+               <p><span class="ib-blue">Correct Answer:</span> Option <span class="ib-dgray ib-bold">B</span></p>
+               <p><span class="ib-blue mx-uline">Explanation:</span></p>
+               <div class="pp-ans-description">
+                  <p>None.</p>
+               </div>
+               
+            </div>
+         </div>
+        
+      </td>
+   </tr>
+</table>
+<!--End Question-->			
+			
+			
+			
+			
+			
+			<!--All Questions End-->
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			</div>
+        </div>
+        
+        <div id="divResult" class="div-tab-container mx-none mx-w-100p">
+            <b>Submit your test now to view the Results and Statistics with answer explanation.</b>
+        </div>    
+
+        <div id="divSubmitTest" align="center" style="display:none; padding:20px; margin-top:20px; margin-bottom:20px; border:1px dashed #ccc; background-color:#fdfdfd;">
+            <input type="button" class="btn btn-primary btn-md" value="Submit Test" id="btnSubmitTest" />
+        </div>
+        
+        <hr />
+        
+    
+   
+        </div>
+         
+     
+        
+    
+        
+    </div>
+	
+	
+	</div>
+	
+	
+	
+	
+   <div class="well col-sm-2 sidenav" style="margin-top:3.2%; margin-left:1%; margin-right:1%;  background-color:white;">
+
+      
+       
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FPooriPadhai%2F&width=60&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" 
+ width="180" height="110" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe><br>
+ 
+	  
+<br>
+       
+	   <iframe class="comment" src="https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FPooriPadhai%2Fposts%2F409236956136120%3Fcomment_id%3D409237732802709%26comment_tracking%3D%257B%2522tn%2522%253A%2522R%2522%257D&width=300&include_parent=false&height=153&appId"
+ width="180" height="260" style="border:;overflow:hidden; padding-right:12px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+ <br>
+
+ 
+ 
+	  
+    </div>
+  </div>
+</div>
+	
+	
+  
+  
+
+<footer class="container-fluid text-center" style="width:100%; margin-top:2%">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Powered by <a href="http://www.pooripadhai.com" title="Visit PooriPadhai" style="color:white;">PooriPadhai</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100130955-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <script src="http://www.pooripadhai.com/jquery.min.js"></script>
+  <script src="http://www.pooripadhai.com/bootstrap.min.js"></script>
+<script src="http://www.pooripadhai.com/online-test/pooripadhai-test.js" type="text/javascript"></script>
+
+</body>
+</html>
