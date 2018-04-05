@@ -1,4 +1,4 @@
-/* w3codecolor ver 1.31 by w3schools.com */
+
 function w3CodeColor() {
   var x, i, j, k, l, modes = ["html", "js", "css", "sql", "python"];
   if (!document.getElementsByClassName) {return;}
