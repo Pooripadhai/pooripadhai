@@ -13,7 +13,7 @@ function w3CodeColor() {
 }
 function w3CodeColorize(x, lang) {
   var tagcolor = "mediumblue";
-  var tagnamecolor = "brown";
+  var tagnamecolor = "blue";
   var attributecolor = "red";
   var attributevaluecolor = "mediumblue";
   var commentcolor = "green";
