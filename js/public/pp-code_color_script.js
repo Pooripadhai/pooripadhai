@@ -13,7 +13,7 @@ function ppCodeColor() {
 }
 function ppCodeColorize(x, lang) {
   var tagcolor = "mediumblue";
-  var tagnamecolor = "blue";
+  var tagnamecolor = "green";
   var attributecolor = "red";
   var attributevaluecolor = "mediumblue";
   var commentcolor = "green";
