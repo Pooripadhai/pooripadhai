@@ -229,3 +229,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .pp-border-dark-grey,.pp-hover-border-dark-grey:hover,.pp-border-dark-gray,.pp-hover-border-dark-gray:hover{border-color:#616161!important}
 .pp-border-pale-red,.pp-hover-border-pale-red:hover{border-color:#ffe7e7!important}.pp-border-pale-green,.pp-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .pp-border-pale-yellow,.pp-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.pp-border-pale-blue,.pp-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+/* Article and Blog Paragraph*/
+.pp-p1{font-size:1.1075em; line-height:1.68421em; color:#0e1318; word-spacing: 0.11em;}
