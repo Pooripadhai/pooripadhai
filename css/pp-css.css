@@ -232,3 +232,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* Article and Blog Paragraph*/
 .pp-p1{font-size:1.1075em; line-height:1.68421em; color:#0e1318; word-spacing: 0.11em; text-align: justify;}
+
+p {text-align: justify;}
