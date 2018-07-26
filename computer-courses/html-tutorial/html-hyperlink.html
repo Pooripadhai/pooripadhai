@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Hyperlink | Provide Linking Between the Webpages</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML Hyperlink provides linking between the two web pages. It can be a text, image etc. and by clicking on which we can move from on web pages to another web page on the website.">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Hyperlink</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Hyperlink</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Hyperlink</li>
+</ul>
+
+
+<h2>HTML Hyperlink</h2>
+
+<p class="pp-p1">HTML Hyperlink provides <b>linking between the two web pages.</b> </p>
+<ul>
+<li><p class="pp-p1">It can be a text, image etc. and by clicking on which we can move from on web pages to another web page on the website.</p></li>
+<li><p class="pp-p1">HTML Hyperlink is defined by <b>&lt;a <span class="pp-text-red">href</span>=<span class="pp-text-brown">"url"</span>&gt;</b> syntax.</p></li>
+<li><p class="pp-p1"><b><span class="pp-text-red">href</span></b> stands for <i>Hyperlink Refrence (hyperlink address).</i></p></li>
+<li><p class="pp-p1"><b><span class="pp-text-brown">url</span></b> stands for <i>Uniform Resource Locator(where our resource is located).</i></p></li>
+
+</ul>
+
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+	Click here to go to &lt;a href="http://www.pooripadhai.com"&gt;PooriPadhai&lt;/a&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-hyperlink-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Hyperlink.</p>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+<h3>HTML Hyperlink Target Attribute</h3>
+
+<p class="pp-p1">The target attribute is used to <b>enhance the property of hyperlink.</b> </p>
+
+<h5><b>1. _blank Attribute</b></h5>
+<ul>
+<li><p class="pp-p1"><i>It opens the web page in a new tab.</i></p></li>
+<li><p class="pp-p1"><b>It is very useful</b> when we want that the user can go to another webpage without leaving the current webpage.</p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+	Click here to go to &lt;a target="_blank" href="https://www.google.com"&gt;Google&lt;/a&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-hyperlink-example-2.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+<h5><b>2. _self Attribute</b></h5>
+<ul>
+<li><p class="pp-p1"><i>It opens the web page in the same frame(this is default).</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+	Click here to go to &lt;a target="_self" href="http://www.pooripadhai.com"&gt;PooriPadhai&lt;/a&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-hyperlink-example-3.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+<h5><b>3. _parent Attribute</b></h5>
+<ul>
+<li><p class="pp-p1"><i>It opens the web page in the parent frame.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+	Click here to go to &lt;a target="_parent" href="http://www.pooripadhai.com"&gt;PooriPadhai&lt;/a&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-hyperlink-example-4.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+
+<h5><b>4. _top Attribute</b></h5>
+<ul>
+<li><p class="pp-p1"><i>It opens the web page in the full body of the window.</i></p></li>
+
+For More <a class="pp-text-blue" href="https://stackoverflow.com/questions/16230959/what-does-top-in-the-hyperlink-target-do" target="_blank">What does _top in the hyperlink target do</a>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+	Click here to go to &lt;a target="_top" href="http://www.pooripadhai.com"&gt;PooriPadhai&lt;/a&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-hyperlink-example-5.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Hyperlink in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="OmnLeooqUmo"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Hyperlink" src="image/video-thumbnails/html-hyperlink.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+     
+</body>
+</html> 
+</html> 

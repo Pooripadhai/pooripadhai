@@ -1,0 +1,148 @@
+<!--Copyright Protected Compiler | DMCA Act-->
+
+<!DOCTYPE html>
+<html>
+<title>HTML, CSS and JS Online Compiler</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Run your html, css, javascript, jquery code in online compiler with full of responsive platform absolutely free. Free online compiler.">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/codemirror.css">
+<script src="http://www.pooripadhai.com/js/codemirror.js"></script>
+<style type="text/css">
+#myIframewrapper,#myTextareawrapper{
+    height:370px;
+    margin-bottom:15px;
+	margin-top:15px;
+	background-color:#fff;
+}
+
+#myTextareaCode{
+    border:none;
+    font-family:consolas,"courier new",monospace;
+    height:100%;
+    padding:8px;
+    resize:none;
+    width:100%;
+}
+
+#iframeResult{
+    background-color:#fff;
+    height:100%;
+    width:100%
+}
+
+</style>
+<h1 class="pp-center" style="font-family: 'Abel'; margin-top:0px; background-color:#30add1; color:white;"><b>HTML, CSS, JS Compiler</b></h1>
+
+<div style="margin-top:25px;">
+
+<div class="pp-container">
+   <a href="../html-website.html">
+    <div class="pp-animate-zoom" style="animation-duration: 1s;">
+      <i class="fa fa-arrow-left pp-margin-bottom pp-text-gray pp-xxlarge"></i>
+     </div>
+     </a>
+
+</div>
+
+<!--Code Start--> 
+<div class="pp-half pp-container">
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+
+ 
+ <div id="myTextareawrapper">
+<textarea spellcheck="false" id="myTextareaCode" wrap="logical" autocomplete="off">
+<html>
+<head>
+<title>
+PooriPadhai
+</title>
+</head>
+<body style="background-color:#00e2e6;">
+<h3 style="background-color:#bbeeee; font-family:verdana;"><a href="home.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="courses.html">Courses</a><h3>
+<h1><center>About Us<center></h1>
+<p style="font-family:verdana;">We are a team of dedicated and hardworking engineers who had gone through almost all the problems which a student faces generally while completing their higher education in our country. So we have a vision to help fellow students and upcoming students who may be opting for higher education. And if we are successful in helping even a single student we'll find our endeavour were not in vain. </p>
+<h1><center>Vision and Goal<center></h1>
+<p style="font-family:verdana;">It is very hard to cope up with the difficulties that come in front of us while going through our higher education, first one we face is what curriculum or field to choose, what university to opt, what college to opt and many more. But one of the biggest problem we face is the language barrier, as coming from rural setting and even through state boards most of the students are not very comfortable with English language which is the most preferred language for higher education. So despite of being an excellent student they end up doing mediocre. We have a vision to solve these little problems, and help improve the standard of our higher education in our country.</p>
+</body>
+</html>
+</textarea>
+</div>
+
+</div>
+<button class="pp-btn pp-margin-bottom" style=" background-color:#30add1; color:white;" target="_blank"  onclick="runCode()">Run Code &raquo;</button>
+</div>
+<!--Code End-->
+
+
+
+
+
+<!--Code Start--> 
+<div class="pp-half pp-container">
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+<div id="myTextareawrapper">
+  <div id="myIframewrapper">
+</div>
+</div>
+</div>
+</div>
+<!--Code End-->
+</div>
+
+<footer class='pp-container pp-theme' style='padding:32px'><p class='pp-center'><i class='fa fa-copyright'></i> Copyright 2018. All Rights Reserved.</p></footer>
+
+<script>
+
+function runCode() {
+          
+
+            var text = document.getElementById("myTextareaCode").value;
+		
+            
+            var ifr = document.createElement("iframe");
+            ifr.setAttribute("frameborder", "0");
+            ifr.setAttribute("id", "iframeResult");
+            document.getElementById("myIframewrapper").innerHTML = "";
+            document.getElementById("myIframewrapper").appendChild(ifr);
+            var ifrw = (ifr.contentWindow) ? ifr.contentWindow : (ifr.contentDocument.document) ? ifr.contentDocument.document : ifr.contentDocument;
+            ifrw.document.open();
+            ifrw.document.write(text);
+            ifrw.document.close();
+            if (ifrw.document.body && !ifrw.document.body.isContentEditable) {
+                ifrw.document.body.contentEditable = true;
+                ifrw.document.body.contentEditable = false;
+            }
+        }
+		
+runCode();		
+       
+</script>
+
+<script>
+function colorcoding() {
+  var ua = navigator.userAgent;
+  //Opera Mini refreshes the page when trying to edit the textarea.
+  if (ua && ua.toUpperCase().indexOf("OPERA MINI") > -1) { return false; }
+  window.editor = CodeMirror.fromTextArea(document.getElementById("myTextareaCode"), {
+    mode: "text/html",
+    htmlMode: true,
+    lineWrapping: true,
+    smartIndent: false,
+    addModeClass: true
+  });
+  
+  window.editor.on("change", function () {window.editor.save();});
+
+  
+}
+colorcoding();
+</script>
+ 
+</body>
+</html> 

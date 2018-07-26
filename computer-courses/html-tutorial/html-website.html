@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Website | Make an Educational Website from Scratch</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This HTML Tutorial provides you an Educational Website on HTML-Hyper Text Markup Language that we are going to make from beginning or scratch.  It contains basic pages like home, contact us, about us, courses etc">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Website</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Website</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Website</li>
+</ul>
+
+
+<h2>HTML Website</h2>
+<p class="pp-p1">This HTML Tutorial provides you an <b>Educational Website on (HTML) </b>Hyper Text Markup Language that we are going to <b>make from beginning or scratch</b>.</p> 
+<p class="pp-p1">The website contains four basic <i>but important</i> web pages, in which our <b>home</b> page, <b>about us</b> page and <b>contact us</b> page is generally available on all the websites.</p>
+<b>
+<ol>
+<li><p class="pp-p1">Home</p></li>
+<li><p class="pp-p1">About Us</p></li>
+<li><p class="pp-p1">Contact Us</p></li>
+<li><p class="pp-p1">Courses</p></li>
+</ol>
+</b>
+<!--Code Start--> 
+<div>
+  <h6 class="pp-text-green"><b>Home Page:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;<br>
+PooriPadhai<br>
+&lt;/title&gt; <br>        
+&lt;/head&gt;<br>
+&lt;body style="background-color:#00e2e6;"&gt;<br>
+&lt;h3 style="background-color:#bbeeee; font-family:verdana;"&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt; | &lt;a href="about.html"&gt;About&lt;/a&gt; | &lt;a href="contact.html"&gt;Contact&lt;/a&gt; | &lt;a href="courses.html"&gt;Courses&lt;/a&gt;&lt;/h3&gt;<br>
+&lt;h1&gt;&lt;center&gt;Pooripadhai&lt;center&gt;&lt;/h1&gt;<br>
+&lt;center&gt;&lt;img src="pooripadhai.jpg"&gt;&lt;/center&gt;<br>
+&lt;hr/&gt;<br>
+&lt;p style="font-family:verdana;"&gt;Pooripadhai will provides you Free Full Comprehensive Courses as per your Stream, Branch, College and University.&lt;br/&gt;<br>
+Courses Include:&lt;br/&gt;<br>
+1. Text &lt;br/&gt;<br>
+2. Videos &lt;br/&gt;<br>
+3. Test &lt;br/&gt;<br>
+4. Previous Year Question Papers &lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-website-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<!--Code Start--> 
+<div>
+  <h6 class="pp-text-green"><b>About Us Page:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;<br>
+PooriPadhai<br>
+&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body style="background-color:#00e2e6;"&gt;<br>
+&lt;h3 style="background-color:#bbeeee; font-family:verdana;"&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt; | &lt;a href="about.html"&gt;About&lt;/a&gt; | &lt;a href="contact.html"&gt;Contact&lt;/a&gt; | &lt;a href="courses.html"&gt;Courses&lt;/a&gt;&lt;h3&gt;<br>
+&lt;h1&gt;&lt;center&gt;About Us&lt;center&gt;&lt;/h1&gt;<br>
+
+&lt;p style="font-family:verdana;"&gt;We are a team of dedicated and hardworking engineers who had gone through almost all the problems which a student faces generally while completing their higher education in our country. So we have a vision to help fellow students and upcoming students who may be opting for higher education. And if we are successful in helping even a single student we'll find our endeavour were not in vain. &lt;/p&gt;<br>
+
+&lt;h1&gt;&lt;center&gt;Vision and Goal&lt;center&gt;&lt;/h1&gt;<br>
+
+&lt;p style="font-family:verdana;"&gt;It is very hard to cope up with the difficulties that come in front of us while going through our higher education, first one we face is what curriculum or field to choose, what university to opt, what college to opt and many more. But one of the biggest problem we face is the language barrier, as coming from rural setting and even through state boards most of the students are not very comfortable with English language which is the most preferred language for higher education. So despite of being an excellent student they end up doing mediocre. We have a vision to solve these little problems, and help improve the standard of our higher education in our country.&lt;/p&gt;<br>
+
+&lt;/body&gt;<br>
+&lt;/html&gt;
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-website-example-2.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<!--Code Start--> 
+<div>
+  <h6 class="pp-text-green"><b>Contact Us Page:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;<br>
+PooriPadhai<br>
+&lt;/title&gt;  <br>       
+&lt;/head&gt;<br>
+&lt;body style="background-color:#00e2e6;"&gt;<br>
+&lt;h3 style="background-color:#bbeeee; font-family:verdana;"&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt; | &lt;a href="about.html"&gt;About&lt;/a&gt; | &lt;a href="contact.html"&gt;Contact&lt;/a&gt; | &lt;a href="courses.html"&gt;Courses&lt;/a&gt;&lt;h3&gt;<br>
+&lt;h1&gt;&lt;center&gt;Contact Us&lt;center&gt;&lt;/h1&gt;<br>
+
+&lt;form&gt;<br>
+Name: &lt;input type="text" value="Krishna"&gt;&lt;br/&gt;&lt;br/&gt;<br>
+Phone: &lt;input type="text" value=""&gt;&lt;br/&gt;&lt;br/&gt;<br>
+Email: &lt;input type="text" value=""&gt;&lt;br/&gt;&lt;br/&gt;<br>
+Message: &lt;br/&gt;&lt;textarea rows="8" cols="28"&gt;&lt;/textarea&gt;<br>
+&lt;input type="submit" value="Submit"&gt;<br>
+&lt;/form&gt;<br>
+
+&lt;/body&gt;<br>
+&lt;/html&gt;
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-website-example-3.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<!--Code Start--> 
+<div>
+  <h6 class="pp-text-green"><b>Courses Page:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;<br>
+PooriPadhai<br>
+&lt;/title&gt;  <br>       
+&lt;/head&gt;<br>
+&lt;body style="background-color:#00e2e6;"&gt;<br>
+&lt;h3 style="background-color:#bbeeee; font-family:verdana;"&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt; | &lt;a href="about.html"&gt;About&lt;/a&gt; | &lt;a href="contact.html"&gt;Contact&lt;/a&gt; | &lt;a href="courses.html"&gt;Courses&lt;/a&gt;&lt;h3&gt;<br>
+&lt;h1&gt;&lt;center&gt;Courses&lt;center&gt;&lt;/h1&gt;<br>
+
+&lt;img src="science.jpg" width="400" height="300"&gt;<br>
+&lt;img src="artandcommerce.jpg" width="400" height="300"&gt;<br>
+&lt;img src="competion.jpg" width="400" height="300"&gt;<br>
+&lt;h3&gt;&lt;pre&gt;            Science and Engineering                              Competion Exam                                   Art and Commerce&lt;/pre&gt;&lt;/h3&gt;<br>
+
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-website-example-4.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Website in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="iAl13e-aLXk"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Website" src="image/video-thumbnails/html-website.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+     
+</body>
+</html> 
+</html> 

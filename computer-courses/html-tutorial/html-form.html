@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Form | Collect Data From Users to Send it to Server</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML forms are used to collect inputs or data from users. HTML form contains input elements like textarea, buttons, radio buttons, submit button, password input, text input, select options etc.">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Form</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Form</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Form</li>
+</ul>
+
+
+<h2>HTML Form</h2>
+<ul>
+<li><p class="pp-p1">HTML forms are used to <b>collect inputs</b> or data from <b>users</b>.</p></li> 
+<li><p class="pp-p1">HTML form contains input elements like <b>textarea, buttons, radio buttons, submit button, password input, text input, select options </b>etc.</p></li>
+<li><p class="pp-p1">HTML form elements come inside <b> &lt;form&gt; &lt;/form&gt; </b>tag.</p></li>
+</ul>
+
+<hr>
+
+<h3>HTML Input Text</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"text"</span>&gt;</b> tag is used to <i>collect the text from user.</i></p></li>
+<li><p class="pp-p1">HTML <b><span class="pp-text-red">name</span> attribute</b> is used to define the name or <b>identity</b> of the &lt;input&gt; element.</p></li>
+<li><p class="pp-p1">HTML <b><span class="pp-text-red">value</span> attribute</b> is used to define the <b>initial value</b> for an input field.</p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+   First Name: &lt;input type="text" name="firstname"&gt;<br>
+   Last Name: &lt;input type="text" name="lastname"&gt;<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Input Type Text.</p>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<h3>HTML Input Password</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"password"</span>&gt;</b> tag is <i>used to collect the password from user.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+   User Password: &lt;input type="password" name="user_password"&gt;<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-2.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Input Type Password.</p>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<h3>HTML Radio Button</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"radio"</span>&gt;</b> tag is <i>used to collect a choice from user.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+  &lt;input type="radio" value="male" name="sex"&gt; Male<br>
+  &lt;input type="radio" value="female" name="sex"&gt; Female<br>
+  &lt;input type="radio" value="other" name="sex"&gt; Other<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-3.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Input Type Radio.</p>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<h3>HTML Checkbox</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"checkbox"</span>&gt;</b> tag is <i>used to collect choices from user.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+  &lt;input type="checkbox" value="Car"&gt; Car<br>
+  &lt;input type="checkbox" value="Bike"&gt; Bike<br>
+  &lt;input type="checkbox" value="Bicycle"&gt; Bicycle<br>
+  &lt;/form&gt;
+   </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-4.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Input Type Checkbox.</p>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+
+</div>
+<!--Code End-->
+<hr>
+
+<h3>HTML Button</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"button"</span>&gt;</b> tag is <i>used to define a button on HTML web page which help user to do an action.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+   &lt;input type="button" value="Click_Me"&gt;<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-5.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Input Type Button.</p>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+
+</div>
+<!--Code End-->
+<hr>
+
+
+<h3>HTML Textarea</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;textarea&gt;</b> tag is <i>used to collect multi-line text from user.</i></p></li>
+<li><p class="pp-p1">We can set the <i>initial size</i> of textarea by <b>cols</b> and <b>rows attributes.</b></p></li>
+<li><p class="pp-p1"><b><span class="pp-text-red">rows</span></b> attribute defines the <b>number of rows</b>  in the text area.</p></li>
+<li><p class="pp-p1"><b><span class="pp-text-red">cols</span></b> attribute defines the <b>number of columns</b> in the text area.</p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+   &lt;textarea name="message" rows="10" cols="30"&gt;Write you message here.&lt;/textarea&gt;<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-6.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Textarea with cols and rows attributes.</p>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+
+<h3>HTML Select Option</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;select&gt;</b> tag is <i>used to provide a drop-down list of options</i> to the user to choose.</p></li>
+<li><p class="pp-p1">Every option comes inside <b>&lt;option&gt; &lt;/option&gt;</b> tag.</p></li>
+<li><p class="pp-p1">By default, the list normally shows the first item as selected.</p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form&gt;<br>
+   &lt;select name="car"&gt;<br>
+   &lt;option&gt;Audi&lt;/option&gt;<br>
+   &lt;option&gt;Lamborghini&lt;/option&gt;<br>
+   &lt;option&gt;Ferrari&lt;/option&gt;<br>
+   &lt;/select&gt;<br>
+   &lt;/form&gt;
+   </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-7.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Select Options Form Element.</p>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr>
+
+<h3>HTML Submit Button</h3>
+<ul>
+<li><p class="pp-p1"><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"submit"</span>&gt;</b> tag is used to define HTML submit button.</p></li>
+<li><p class="pp-p1">HTML Submit button is used to <b>send all the input data to the server</b> through <i>form handler.</i></p></li>
+<li><p class="pp-p1">The <b>form-handler</b> <i>is typically a server page which is a script for processing input data.</i></p></li>
+<li><p class="pp-p1"><b>HTML action attribute</b> specifies the <i>URL of form handler page for processing input data.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  &lt;form  action="contact.php"&gt;<br>
+   First Name: &lt;input type="text" name="firstname"&gt;<br>
+   Last Name: &lt;input type="text" name="lastname"&gt;<br>
+   User Password: &lt;input type="password" name="user_password"&gt;<br>
+   &lt;input type="submit" value="Submit"&gt;<br>
+   &lt;/form&gt;
+  </b>
+  </div>
+
+</div> 
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-form-example-8.html" target="_blank">Run Code &raquo;</a>
+
+<h6 class="pp-text-orange"><b>Example Explanation:</b></h6>
+
+<p>In the above, we have shown an example of HTML Select Options Form Element.</p>
+<ul>
+<li>
+<p><b>&lt;<span class="pp-text-blue">input</span> <span class="pp-text-red">type</span>=<span class="pp-text-brown">"submit"</span>&gt;</b> tag send all the input values (<i> firstname, lastname and user_password </i>) to the <i>server</i>.<br>The <b>server</b> <i>receives and processes</i> the values by using the <b>contact.php</b> script.</p>
+</li></ul>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<hr>
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Form in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="FRGa2H242fI"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Form" src="image/video-thumbnails/html-form.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+     
+</body>
+</html> 
+</html> 

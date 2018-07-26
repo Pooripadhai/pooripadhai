@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<title>HTML List | Show Ordered list and Unordered list on the Web page</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML list is of two types. Ordered list and Unordered list. ul tag is used to define an unordered list and ol tag is used to define the ordered list. Inside the ul and ol tag, the list is defined by li tag.">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+ol 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3973ac;
+    color: white;
+}
+</style>
+
+<!--For Slider-->
+<style>
+.mySlides {display:none}
+</style>
+
+<!--For Slider-->
+<style>
+.mySlides1 {display:none}
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML List</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML List</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML List</li>
+</ul>
+
+
+<h2>HTML List</h2>
+
+<p class="pp-p1">HTML list is of two types.</p>
+
+<ol>
+<li><p class="pp-p1">Ordered list</p></li>
+<li><p class="pp-p1">Unordered list</p></li>
+</ol>
+
+<h3>HTML Ordered list</h3>
+
+
+<div class="pp-container pp-light-gray pp-round-xlarge" style="width:150px;">
+<p><span class="pp-serif pp-large">
+
+<ol>
+<li>Car</li>
+<li>Bike</li>
+<li>Bicycle</li>
+</ol>
+
+</span></p>
+</div>
+
+<p class="pp-p1">HTML Ordered list is defined by <b> &lt;ol&gt; </b> tag and inside the &lt;ol&gt; tag, list is defined by <b>&lt;li&gt;</b> tag.</p>
+<div class="pp-panel pp-leftbar pp-sand pp-serif pp-p1">
+    <p><i>"By default, the ordered list will show in Number type format."</i></p>
+  </div>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;ol&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ol&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML Unordered list</h3>
+
+
+<div class="pp-container pp-light-gray pp-round-xlarge" style="width:150px;">
+<p><span class="pp-serif pp-large">
+
+<ul>
+<li>Car</li>
+<li>Bike</li>
+<li>Bicycle</li>
+</ul>
+
+</span></p>
+</div>
+
+
+
+
+<p class="pp-p1">HTML Unordered list is defined by <b> &lt;ul&gt; </b> tag and inside the &lt;ul&gt; tag, list is defined by <b>&lt;li&gt;</b> tag.</p>
+<div class="pp-panel pp-leftbar pp-sand pp-serif pp-p1">
+    <p><i>"By default, the ordered list will show in Disc type format."</i></p>
+  </div>
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;ul&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-2.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML List Type Attribute</h3>
+
+
+<p class="pp-p1"><i>Type attributes</i> are used to <b>enhance the property</b> of HTML list.</p>
+
+<h4>Ordered List Types</h4>
+
+<div class="pp-responsive">
+<table id="customers">
+  <tr>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>type="1"</td>
+    <td>The list items start with numbers (default)</td>
+  </tr>
+  <tr>
+    <td>type="a"</td>
+    <td>The list items start with lowercase letters</td>
+  </tr>
+  <tr>
+    <td>type="A"</td>
+    <td>The list items start with uppercase letters</td>
+  </tr>
+  <tr>
+    <td>type="i"</td>
+    <td>The list items start with lowercase roman numbers</td>
+  </tr>  
+  <tr>
+    <td>type="I"</td>
+    <td>The list items start with uppercase roman numbers</td>
+  </tr>  
+  
+  
+</table>
+</div>
+
+
+
+<!--Slider Start-->
+<div>
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ol type="a"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ol&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-4.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ol type="A"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ol&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-5.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ol type="i"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ol&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-6.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ol type="I"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ol&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-7.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+
+</div>
+<!--Slider End-->
+
+
+<!--Slider Button Start-->
+<div class="pp-center">
+  <div class="pp-section">
+    <button class="pp-button pp-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="pp-button pp-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="pp-button demo" onclick="currentDiv(1)">1</button> 
+   <button class="pp-button demo" onclick="currentDiv(2)">2</button>
+    <button class="pp-button demo" onclick="currentDiv(3)">3</button>
+	 <button class="pp-button demo" onclick="currentDiv(3)">4</button>
+  
+</div>
+<!--Slider Button End-->
+
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h4>Unordered List Types</h4>
+
+<div class="pp-responsive">
+<table id="customers">
+  <tr>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>type="disc"</td>
+    <td>The list items start with disc type bullet (default)</td>
+  </tr>
+  <tr>
+    <td>type="square"</td>
+    <td>The list items start with circle type bullet</td>
+  </tr>
+  <tr>
+    <td>type="circle"</td>
+    <td>The list items start with square type bullet</td>
+  </tr>
+  <tr>
+    <td>type="none"</td>
+    <td>The list items will not be marked</td>
+  </tr>  
+    
+</table>
+</div>
+
+<!--Slider Start For 2nd Slider We change CSS,JS and also HTML code-->
+<div>
+<!--Code Start--> 
+<div class="mySlides1">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ul type="square"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-8.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides1">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ul type="circle"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-9.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides1">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;ul type="none"&gt;<br>
+   &lt;li&gt;Car&lt;/li&gt;<br>
+   &lt;li&gt;Bike&lt;/li&gt;<br>
+   &lt;li&gt;Bicycle&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-10.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+
+
+</div>
+<!--Slider End-->
+
+
+<!--Slider Button Start-->
+<div class="pp-center">
+  <div class="pp-section">
+    <button class="pp-button pp-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
+    <button class="pp-button pp-light-grey" onclick="plusDivs1(1)">Next ❯</button>
+  </div>
+  <button class="pp-button demo1" onclick="currentDiv1(1)">1</button> 
+   <button class="pp-button demo1" onclick="currentDiv1(2)">2</button>
+    <button class="pp-button demo1" onclick="currentDiv1(3)">3</button>
+  
+</div>
+<!--Slider Button End-->
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+
+<h3>HTML Nested List</h3>
+
+
+<p class="pp-p1">In the Nested list, we can put a <b>list inside a list.</b></p>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;ul&gt;<br>
+   &lt;li&gt;First Item&lt;/li&gt;<br>
+   &lt;li&gt;Second Item&lt;/li&gt;<br>
+   &lt;ul&gt;<br>
+   &lt;li&gt;First Sub Item&lt;/li&gt;<br>
+   &lt;li&gt;Second Sub Item&lt;/li&gt;<br>
+   &lt;li&gt;Third Sub Item&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+   
+   &lt;li&gt;Third Item&lt;/li&gt;<br>
+   &lt;/ul&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-list-example-3.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr>
+
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML List in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="8E0jaCHC188"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML List" src="image/video-thumbnails/html-list.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+
+  <script>
+
+ /* Slider */
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" pp-pooripadhai", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " pp-pooripadhai";
+}
+</script>
+
+
+  <script>
+
+ /* Slider */
+
+var slideIndex1 = 1;
+showDivs1(slideIndex1);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+}
+
+function currentDiv1(n) {
+  showDivs1(slideIndex1 = n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo1");
+  if (n > x.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" pp-pooripadhai", "");
+  }
+  x[slideIndex1-1].style.display = "block";  
+  dots[slideIndex1-1].className += " pp-pooripadhai";
+}
+</script>
+     
+</body>
+</html> 
+</html> 

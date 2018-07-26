@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This HTML Tutorial provides you an Educational Website on HTML-Hyper Text Markup Language that we are going to make from beginning or scratch.  It contains basic pages like home, contact us, about us, courses etc">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Tutorial</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Tutorial</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Tutorial</li>
+</ul>
+
+
+<h2>HTML Tutorial</h2>
+<p class="pp-p1">PooriPadhai provides you a Free HTML Tutorial to make <b>beautiful and elegant Websites.</b><br/> These lectures clear all your basic concepts of HyperText Markup Language one by one with practical examples that you can run on your browser.</p>
+<p class="pp-p1"><b>Course Includes:</b></p>
+<div class="pp-container pp-sand pp-leftbar">
+<p class="pp-p1">
+<li>Text</li>
+<li>Videos</li>
+<li>Proper Description</li>
+<li>Practical Examples</li>
+<li>A Website from Beginning (Scratch)</li>
+</p>
+</div>
+<p class="pp-p1">This tutorial contains descriptions of all the HTML Tag and Syntax in the form of text and video.<br/> Here videos make your experience better with audio and visual effect, it also makes your understanding even more clear when you see it practically running on Browser (Google Chrome, Mozilla Firefox, Internet Explorer and many more).<br/> </p> 
+<hr style="border-style: solid; border-width: 0.015em; border-color: #30add1;"/>
+
+
+<div class="pp-container">
+
+<div class="pp-half pp-padding">
+
+<!--Code Start--> 
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>Example</b></h2>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+  <b>
+  <br>
+  <br>
+    &lt;html&gt;<br>
+	&lt;head&gt;<br>
+    &lt;title&gt;HTML Tutorial&lt;/title&gt;<br>
+	&lt;/head&gt;<br>
+    &lt;body&gt;<br>
+    This is the my First Web page of PooriPadhai Website.<br> 
+    &lt;/body&gt;<br>
+    &lt;/html&gt
+<br>
+<br>
+<br>
+	</b>
+	
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-first-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<!--Code End-->
+
+
+</div>
+
+
+
+<div class="pp-half pp-padding">
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Tutorial in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="gbRh9bgRC1k"></div>
+
+</div>
+
+
+</div>
+
+<hr style="border-style: solid; border-width: 0.015em; border-color: #30add1;">
+
+
+<h3>HTML Tutorial Examples</h3>
+<p class="pp-p1">All the examples used in the Tutorial are very easy to use.<br/>It is also portable means it can be used on any platform or operating system.</p>
+<p class="pp-p1"><b>Ex.</b> Windows, Linux, Ubuntu, Mac OS etc.</p>
+<p class="pp-p1">You can download all the Examples from <a target="_blank" class="pp-text-blue" href="https://drive.google.com/open?id=0B4r667upUDtvZUpJOF9zc3hRUnc">HTML Tutorial Example</a></br>It will make more easier to learn HTML.</p>
+
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h2>HTML Tutorial Course Contents</h2>	
+<div class="pp-container pp-sand pp-leftbar">
+<p class="pp-p1">
+<div class="pp-row-padding">
+<li class="pp-half">HTML Tutorial</li>
+<li class="pp-half">HTML Introduction</li>
+<li class="pp-half">HTML Syntax</li>
+<li class="pp-half">HTML Structure</li>
+<li class="pp-half">HTML First Example</li>
+<li class="pp-half">HTML Heading</li>
+<li class="pp-half">HTML Paragraph</li>
+<li class="pp-half">HTML Attribute Introduction</li>
+<li class="pp-half">HTML Horizontal Line</li>
+<li class="pp-half">HTML Line Break</li>
+<li class="pp-half">HTML Pre Tag</li>
+<li class="pp-half">HTML Style Introduction</li>
+<li class="pp-half">HTML Fonts</li>
+<li class="pp-half">HTML Text Size</li>
+<li class="pp-half">HTML Background</li>
+<li class="pp-half">HTML Text Color</li>
+<li class="pp-half">HTML Text Alignment</li>
+<li class="pp-half">HTML Bold-Strong</li>
+<li class="pp-half">HTML Italic-Emp</li>
+<li class="pp-half">HTML Small-Big</li>
+<li class="pp-half">HTML Del-Ins</li>
+<li class="pp-half">HTML Sub-Supescript</li>
+<li class="pp-half">HTML Mark Tag</li>
+<li class="pp-half">HTML Quotation</li>
+<li class="pp-half">HTML Abbreviation</li>
+<li class="pp-half">HTML Computer Code</li>
+<li class="pp-half">HTML Comments</li>
+<li class="pp-half">HTML Hyperlink</li>
+<li class="pp-half">HTML Image</li>
+<li class="pp-half">HTML Table</li>
+<li class="pp-half">HTML List</li>
+<li class="pp-half">HTML Div Tag</li>
+<li class="pp-half">HTML Span Tag</li>
+<li class="pp-half">HTML Iframe</li>
+<li class="pp-half">HTML Meta Tag</li>
+<li class="pp-half">HTML Symbols</li>
+<li class="pp-half">HTML Forms</li>
+<li class="pp-half">HTML Form Attribute</li>
+<li class="pp-half">HTML Center Tag</li>
+<li class="pp-half">HTML Website</li>
+<li class="pp-half">All HTML Symbols</li>
+</p>
+</div>
+</div>
+<p class="pp-p1"><b>Hope you will feel like a Web Developer after completing this course.</b><p>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Website" src="image/video-thumbnails/html-tutorial.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+     
+</body>
+</html> 
+</html> 

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Table | Show the Data in Tabular Form on the Web page</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML table is used to define tables on the web page which shows the data in tabular form. The table is divided into Rows and Columns. A row is define by tr tag. The row is divided into the number of columns. Column contains table data which are define by th tag and td tag. th tag is used to define table heading. ">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3973ac;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Table</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Table</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Table</li>
+</ul>
+
+
+<h2>HTML Table</h2>
+
+<p class="pp-p1">HTML table is used to define tables on the web page which shows the <b>data in tabular form.</b></p>
+
+<div class="pp-responsive">
+<table id="customers" class="pp-small">
+  <tr>
+    <th>Name</th>
+    <th>Email Id</th>
+    <th>Phone No</th>
+	<th>Age</th>
+  </tr>
+  <tr>
+    <td>Aditi Musunur</td>
+    <td>abd.happel@autozone-inc.info</td>
+    <td>(392) 181-8544
+</td>
+	<td>34</td>
+  </tr>
+  <tr>
+    <td>Advitiya Sujeet</td>
+    <td>garne-endres@progressenergyinc.info</td>
+    <td>(375) 585-3565
+</td>
+	<td>23</td>
+  </tr>
+  <tr>
+    <td>Alagesan Poduri</td>
+    <td>ly_cha@progressenergyinc.info</td>
+    <td>(683) 734-4276
+</td>
+	<td>45</td>
+  </tr>
+  <tr>
+    <td>Amrish Ilyas</td>
+    <td>yeva.brye@progressenergyinc.info</td>
+    <td>(791) 729-0692
+</td>
+	<td>28</td>
+  </tr>
+  <tr>
+    <td>Aprativirya Seshan</td>
+    <td>shgd@gmail.com</td>
+    <td>(375) 585-3565
+</td>
+	<td>13</td>
+  </tr>
+  <tr>
+    <td>Asvathama Ponnada</td>
+    <td>maria@gmail.com</td>
+    <td>(524) 386-5730
+</td>
+	<td>32</td>
+  </tr>
+  <tr>
+    <td>Debasis Sundhararajan</td>
+    <td>ander@mail.com</td>
+    <td>(268) 508-9243
+</td>
+	<td>35</td>
+  </tr>
+  <tr>
+    <td>	Gopa Trilochana</td>
+    <td>starstuff@live.com</td>
+    <td>(950) 926-1612
+</td>
+	<td>24</td>
+  </tr>
+  <tr>
+    <td>	Jitendra Choudhary</td>
+    <td>chance@outlook.com</td>
+    <td>(950) 926-1612
+</td>
+	<td>40</td>
+  </tr>
+  <tr>
+    <td>	Naveen Tikaram</td>
+    <td>jrkorson@yahoo.ca</td>
+    <td>(272) 211-7370
+</td>
+	<td>44</td>
+  </tr>
+  
+</table>
+</div>
+
+<hr>
+
+<p class="pp-p1">The table is divided into <b>Rows</b> and <b>Columns.</b>  </p>
+<ul>
+<li><p class="pp-p1"><b>Rows</b> are <i>horizontally aligned</i> which contains one or more columns.</p></li>
+<li><p class="pp-p1"><b>Columns</b> are <i>vertically aligned</i> which contains one or more rows.</p></li>
+</ul>
+<img src="image/html-table-image-4.jpg" class="pp-image">
+<ul>
+<li><p class="pp-p1">All the rows and columns come inside <b>&lt;table&gt;</b> tag.</p></li>
+<li><p class="pp-p1">A row is define by <b>&lt;tr&gt;</b> tag.</p></li>
+<li><p class="pp-p1">Column contains table data which are define by <b>&lt;th&gt;</b> tag and <b>&lt;td&gt;</b> tag.</p></li>
+<li><p class="pp-p1"><b>&lt;th&gt;</b> tag is used to define table heading. <i>It makes the text bold which increase the importance of text.</i></p></li>
+<li><p class="pp-p1"><b>&lt;td&gt;</b> tag is used to define normal table data.</p></li>
+</ul>
+
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;table&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;th&gt;S.No&lt;/th&gt;<br>
+   &lt;th&gt;Courses&lt;/th&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;1&lt;/td&gt;<br>
+   &lt;td&gt;HTML&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;2&lt;/td&gt;<br>
+   &lt;td&gt;CSS&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;/table&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-table-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End--> 
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML Border Attribute</h3>
+<p class="pp-p1">HTML border attribute is used to give a <i>border to a table.</i></p>
+<ul>
+<li><p class="pp-p1">HTML Border Attribute is defined by <b><span class="pp-text-red">border</span>=<span class="pp-text-brown">"value"</span></b> syntax.</p></li>
+<li><p class="pp-p1"><b><span class="pp-text-brown">Value</span></b> can be 0,1,2,3 and more.</p></li>
+<li><p class="pp-p1"><b><span class="pp-text-brown">0</span></b> is by default which shows <i>no border.</i></p></li>
+<li><p class="pp-p1"><b><span class="pp-text-brown">1,2,3 and more</span></b> adds the border around the <i>cell</i> (A <i>cell</i> is a block which contains single data in the table).</p></li></ul>
+
+
+<img src="image/html-table-image-1.jpg" class="pp-image">
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;table border="1"&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;th&gt;S.No&lt;/th&gt;<br>
+   &lt;th&gt;Courses&lt;/th&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;1&lt;/td&gt;<br>
+   &lt;td&gt;HTML&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;2&lt;/td&gt;<br>
+   &lt;td&gt;CSS&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;/table&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-table-example-2.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML Colspan Attribute</h3>
+<p class="pp-p1">To <i>extend the one column into several columns</i> we used colspan attribute.</i></p>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;table border="1"&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;th colspan="2"&gt;Phone No.&lt;/th&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;+91 1234567898&lt;/td&gt;<br>
+   &lt;td&gt;+91 1234567897&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;+91 1234567896&lt;/td&gt;<br>
+   &lt;td&gt;+91 1234567894&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;/table&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-table-example-3.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML Rowspan Attribute</h3>
+<p class="pp-p1">To <i>extend the one row into several rows</i> we used rowspan attribute.</i></p>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;table border="1"&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;th rowspan="3"&gt;Telephone&lt;/th&gt;<br>
+   &lt;td&gt;+91 1234567898&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;+91 1234567896&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;+91 1234567894&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;/table&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-table-example-4.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+<hr style="border-style: solid; border-width: 0.035em; border-color: #30add1;">
+
+<h3>HTML Table Caption</h3>
+<p class="pp-p1">To add a caption (<b>summary of table</b>) to a table, use the &lt;caption&gt; tag.</p>
+<ul>
+<li><p class="pp-p1">The <b>&lt;caption&gt;</b> tag must be <i>inserted immediately after the &lt;table&gt; tag.</i></p></li>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+   &lt;table border="1"&gt;<br>
+   &lt;caption&gt;Student Marksheet&lt;/caption&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;th&gt;S.No&lt;/th&gt;<br>
+   &lt;th&gt;First Name&lt;/th&gt;<br>
+   &lt;th&gt;Subject&lt;/th&gt;<br>
+   &lt;th&gt;Marks&lt;/th&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;1&lt;/td&gt;<br>
+   &lt;td&gt;Ram&lt;/td&gt;<br>
+   &lt;td&gt;Math&lt;/td&gt;<br>
+   &lt;td&gt;89&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;2&lt;/td&gt;<br>
+   &lt;td&gt;Krishna&lt;/td&gt;<br>
+   &lt;td&gt;Physics&lt;/td&gt;<br>
+   &lt;td&gt;78&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>
+   &lt;tr&gt;<br>
+   &lt;td&gt;3&lt;/td&gt;<br>
+   &lt;td&gt;Mohan&lt;/td&gt;<br>
+   &lt;td&gt;Chemistry&lt;/td&gt;<br>
+   &lt;td&gt;56&lt;/td&gt;<br>
+   &lt;/tr&gt;<br>   
+   &lt;/table&gt;<br>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-table-example-5.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+
+<hr>
+
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Table in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="rkPGauIspG4"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Table" src="image/video-thumbnails/html-table.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+     
+</body>
+</html> 
+</html> 

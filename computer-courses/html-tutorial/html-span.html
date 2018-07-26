@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Span Tag | What is Inline Element | How to use Span Tag</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML span tag does not give any special appearance on the web page like b tag, i tag etc gives. It generally used as a container for some text in HTML document. Like if we want to change the color of only 3 words together then we can use span tag to cover all 3 words in one.">
+<link rel="SHORTCUT ICON" href="http://www.pooripadhai.com/favicon.png">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/pp-css.css">
+<link rel="stylesheet" href="http://www.pooripadhai.com/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--For Theme-->
+<style>
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+</style>
+
+<!--For Body-->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+
+.pp-bar-block .pp-bar-item{padding:16px;}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Current Selected Menu */
+
+.current {
+	    padding: 16px;
+        display: block;
+		text-align: left;
+        border: none;
+        white-space: normal;
+        float: none;
+        outline: 0;
+		color: #fff;
+        background-color: #30add1;
+		user-select: none;
+	     }
+		  
+.current:hover, .pp-button:hover
+{
+background-color: #ccc;
+text-decoration: none;
+
+}
+
+ul 
+{
+padding-left: 1em;
+}
+
+
+</style>
+
+<!--For Breadcrumb-->
+<style>
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+    
+}
+</style>
+
+<!--For Social Icon-->
+<style>
+.pp-hover-text-indigo:hover {
+    color: #3f51b5!important
+}
+.pp-hover-text-purple:hover {
+    color: #9c27b0!important
+}
+.pp-hover-text-light-blue:hover {
+    color: #87CEEB!important
+}
+.pp-hover-text-red:hover {
+    color: #f44336!important
+}
+.pp-hover-text-blue:hover {
+    color: #2196F3!important
+}
+</style>
+
+<!--For YT Embed-->
+<style>
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+.youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("http://www.pooripadhai.com/image/playvideo.png") no-repeat;
+        cursor: pointer;
+    }
+
+
+</style>
+
+<!--For Slider-->
+<style>
+.mySlides {display:none}
+</style>
+
+
+</head>
+
+<body>
+
+
+
+
+<nav class="pp-sidebar pp-bar-block pp-collapse pp-animate-left pp-card-2" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="pp-bar-item pp-button pp-border-bottom pp-large" href="http://pooripadhai.com"><img src="http://pooripadhai.com/image/logo/pooripadhaibluelogo.png" style="width:100%;"></a>
+  <a class="pp-bar-item pp-button pp-hide-large pp-large" href="javascript:void(0)" onclick="pp_close()">Close <i class="fa fa-remove"></i></a>
+
+  <!--Side Bar Menu-->  
+<script src="html-tutorial-sidemenu.js"></script>
+
+</nav>
+
+<div class="pp-overlay pp-hide-large pp-animate-opacity" onclick="pp_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="pp-main" style="margin-left:250px;">
+
+<div id="myTop" class="pp-container pp-top pp-theme pp-large">
+  <p><i class="fa fa-bars pp-button pp-pooripadhai pp-hide-large pp-xlarge" onclick="pp_open()"></i>
+  <span id="myIntro" class="pp-hide">HTML Span Tag</span></p>
+</div>
+
+<header class="pp-container pp-theme" style="padding:64px 32px">
+  <h1 class="pp-xxlarge"><b>HTML Span Tag</b></h1>
+</header>
+
+<div class="pp-container" style="padding:16px" >
+<ul class="breadcrumb">
+  <li><a href="http://pooripadhai.com">Home</a></li>
+  <li><a href="http://pooripadhai.com/computer-courses/">Computer Courses</a></li>
+  <li>HTML Span Tag</li>
+</ul>
+
+
+<h2>HTML Span Tag</h2>
+<ul>
+<li><p class="pp-p1">The <b>&lt;span&gt;</b> element is an inline element. </p></li>
+<li><p class="pp-p1">An <b>inline element</b> does not start on a new line and only takes up as much width as necessary.</p></li>
+<ul>
+<li><p class="pp-p1"><b>Example of inline element:</b> &lt;i&gt;,&lt;a&gt;,&lt;b&gt; etc.</p></li>
+</ul>
+<li><p class="pp-p1">HTML Span Tag tag does not give any special appearance on web page like &lt;b&gt; tag, &lt;i&gt; tag etc gives. It generally used as a container for HTML elements.</p></li> 
+
+<ul>
+<li><p class="pp-p1"><i>Like if we want to change the color of 4 words together then we can use a &lt;span&gt; tag to cover all text in one.</i></li>
+</ul>
+</ul>
+
+<!--Code Start--> 
+<div>
+ <h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b> Some words of &lt;span style="color:blue"&gt;this sentence become&lt;/span&gt; blue. </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-span-example-1.html" target="_blank">Run Code &raquo;</a>
+
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+
+</div>
+<!--Code End-->
+
+<hr style="border-style: solid; border-width: 0.015em; border-color: #30add1;">
+
+<h3>Difference between the Div and Span Tag</h3>
+
+<ul>
+<li><p class="pp-p1"><b>Div Tag</b> takes the <i>full width of the screen</i> and <b>Span Tag</b> takes <i>only as much as required to cover the content.</i></p></li></ul>
+
+<!--Slider Start-->
+<div>
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+ Some words of &lt;span style="color:blue"&gt;this sentence become&lt;/span&gt; blue.<br>
+ Some words of &lt;div style="color:blue"&gt;this sentence become&lt;/div&gt; blue. 
+ 
+
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-span-example-2.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+ Some words of &lt;span style="background-color:lime"&gt;this sentence become&lt;/span&gt; blue.<br>
+ Some words of &lt;div style="background-color:lime"&gt;this sentence become&lt;/div&gt; blue.
+
+	
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-span-example-3.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+<!--Code Start--> 
+<div class="mySlides">
+<h6 class="pp-text-green"><b>Example:</b></h6>
+ <div class="pp-panel pp-card pp-light-grey pp-round-large"> 
+
+  <div class="pp-code htmlHigh notranslate">
+ <b>
+   &lt;div style="text-align:right; background-color:lightblue;"&gt;<br>
+   &lt;a href="#"&gt;HOME&lt;/a&gt; | &lt;a href="#"&gt;CONTACT&lt;/a&gt; | &lt;a href="#"&gt;ABOUT&lt;/a&gt;<br>
+   &lt;/div&gt;
+  </b>
+  </div>
+
+</div>
+<a class="pp-btn pp-margin-bottom pp-blue" href="compiler/html-div-example-3.html" target="_blank">Run Code &raquo;</a>
+<p class="pp-p1"><i>Run the code to see the effect.</i></p>
+</div>
+<!--Code End-->
+
+</div>
+<!--Slider End-->
+
+
+<!--Slider Button Start-->
+<div class="pp-center">
+  <div class="pp-section">
+    <button class="pp-button pp-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="pp-button pp-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="pp-button demo" onclick="currentDiv(1)">1</button> 
+   <button class="pp-button demo" onclick="currentDiv(2)">2</button>
+  
+</div>
+<!--Slider Button End-->
+
+<hr style="border-style: solid; border-width: 0.015em; border-color: #30add1;">
+
+
+
+
+
+<h2 class="pp-center pp-xlarge pp-text-blue"><b>HTML Span Tag in Hindi</b></h2>
+<!--here in data-id we will provide yt video id-->
+<div class="youtube-player" data-id="iwsmmtPUR00"></div>
+<b>Best Use:</b><em>360p or more (480p or 720p)</em>
+<hr>
+
+</div>
+
+<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function pp_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function pp_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("myTop").classList.add("pp-card-4", "pp-animate-opacity");
+        document.getElementById("myIntro").classList.add("pp-show-inline-block");
+    } else {
+        document.getElementById("myIntro").classList.remove("pp-show-inline-block");
+        document.getElementById("myTop").classList.remove("pp-card-4", "pp-animate-opacity");
+    }
+}
+
+</script>
+<script>
+
+    /* Light YouTube Embeds */
+
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img alt="HTML Span" src="image/video-thumbnails/html-span.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?rel=0&autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
+<script>
+
+ /* Highlight Current Menu */
+ 
+ 
+var url = location.href.split("/"); //replace string with location.href
+var navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+//naturally you could use something other than the <nav> element
+var i=0;
+var currentPage = url[url.length - 1];
+for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-1] == currentPage) {
+   navLinks[i].className = "current";
+
+  }
+  }
+
+</script>
+
+
+<script src="http://www.pooripadhai.com/js/pp-code_color_script.js"></script>
+<script>
+ppCodeColor();
+</script>
+
+  <script>
+
+ /* Slider */
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" pp-pooripadhai", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " pp-pooripadhai";
+}
+</script>
+
+     
+</body>
+</html> 
+</html> 
