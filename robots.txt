@@ -1,4 +1,4 @@
-user-agent: googlebot
-disallow: /computer-courses/html-tutorial/compiler/
+user-agent: *
+Disallow: /computer-courses/html-tutorial/compiler/
 
 sitemap: http://www.pooripadhai.com/sitemap.xml
