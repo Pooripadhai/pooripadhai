@@ -43,7 +43,7 @@ var explanation=[
 "Class is used to apply style on a group of elements while Id attribute is used to style an specific or unique element.",
 "color: red represents as a declaration because it contains CSS property name and a value which is separated by a colon.",
 "font-size represents property-name as it is used to increase or decrease the size of a font such as xx-small,x-small,small,medium,large,x-large ,xx-large,smaller, larger,percentage ,inherit.",
-"The <style> tag is used to define style information for an HTML document. Inside the <style> element you specify how HTML elements should deliver on a browser.",
+"The &lt;style&gt; tag is used to define style information for an HTML document. Inside the &lt;style&gt; element you specify how HTML elements should deliver on a browser.",
 "CSS ID selector matches an element based on the value of its id attribute. The selected element's ID attribute must match exactly the value given in the selector. ID selector is a name preceded by a hash character (“#”).",
 "Cascading Style Sheets implements all the properties to provide an HTML website more interactive look.",
 "The CSS class selector matches elements based on the contents of their class attribute. A class selector is a name preceded by a full stop (“.”)",
