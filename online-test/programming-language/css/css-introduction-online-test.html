@@ -136,17 +136,6 @@ h1
     }
 }
 
-.h1_like 
-{
-  font-size: 25px;
-}
-
-@media only screen and (max-width: 600px) {
-    .h1_like {
-        font-size: 20px!important;
-    }
-}
-
 a:link {
     text-decoration: none;
 }
@@ -260,38 +249,6 @@ color:white;
 <script src="css-introduction-online-test.js">
 </script>
 <!--CODE: TO WRITE SHORT DETALILS (END)-->
-
-<div>
-
-<!--CODE: PAGE1 INSTRUCTIONS (START)-->
-<div id="p1" class="" style="margin-top:90px;">
-<h1 class="pp-center pp-text-light-green"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Introduction Online Test</h1>
-
-	<div class="pp-container pp-content pp-card pp-light-gray pp-round-large pp-margin-top">
-    	<div class="pp-panel pp-border pp-round-large pp-white">
-        	<div class="pp-container pp-text-blue-gray">
-    			<div class="pp-xlarge pp-text-orange pp-margin-top"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Instructions:</u></b></div>
-                <div class="pp-leftbar pp-round-xlarge pp-border-blue-grey">
-                    <ul>
-                        <li class="pp-padding-12">Total number of questions : <b>10</b>.</li>
-                        <li class="pp-padding-12">Time alloted : <b>10</b> minutes.</li>
-                        <li class="pp-padding-12">Each question carry <b>1</b> mark.</li>
-                        <li class="pp-padding-12"><b>No Negative</b> marks</li>
-						<li class="pp-padding-12"><b>DO NOT</b> refresh the page.</li>
-                        <li class="pp-padding-12">All the best :-)</li>
-                    </ul>
-                </div>
-                <br />
-                <button class="pp-btn pp-text-white pp-pooripadhai pp-border pp-round-large pp-hover-light-gray pp-center" id="button_margin" onclick="starttest()">Start Test</button>
-            </div>
-            <br />
-        </div>
-    </div>
-
-</div>
-<!--CODE: PAGE1 INSTRUCTIONS(END)-->
-
-</div>
 
 <!--page 3 Marks Calculation-->
 <!--CODE: RESULT(START)-->
@@ -411,7 +368,7 @@ document.getElementById('id01').style.display='block';
 <div class="pp-container" id="question_container" style="margin-top:100px;">
 <div class="pp-container pp-card-4 pp-round-large pp-padding">
 
-<div class="pp-center pp-text-light-green h1_like"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Introduction Online Test</div>
+<h1 class="pp-center pp-text-light-green"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Introduction Online Test</h1>
 
 
 
@@ -708,7 +665,7 @@ function myFunction() {
 
 	function starttest()
 	{
-		document.getElementById("p1").style.display="none";
+		//document.getElementById("p1").style.display="none";
 		document.getElementById("p2").style.display="block";
 		document.getElementById("settimervalue").value=time_limit_in_secs;
 		document.getElementById("no_of_questions").innerHTML=no_of_questions;
@@ -843,6 +800,7 @@ function responsive_navigation() {
         x.className = "topnav";
     }
 }
+starttest();
 </script>
 
 
