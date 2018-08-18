@@ -3,7 +3,7 @@
 <head>
 <title>CSS Fonts Online Test | Boost your Knowledge in CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Test your ability in CSS Fonts to give Free Online Test (Quiz). Which value is supposed to be a slightly bolder weight that standard bold in font attribute, spaces between the characters in a text, font family lacks bold or italic faces, normal, or small-caps face from a font family and many more.">
+<meta name="description" content="Test your ability in CSS Fonts to give Free Online Test (Quiz). In this test, we will cover the questions related to 'Bold and Oblique font faces', 'Normal and small caps font-family', 'Font Variant property', 'Fall back fonts', 'Expanded, Condensed and Normal Fonts' and lots more thing of CSS Fonts.">
 <link rel="SHORTCUT ICON" href="../../../favicon.png">
 <link rel="stylesheet" href="../../../css/pp-css.css">
 <link rel="stylesheet" href="../../../css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -222,14 +222,14 @@ color:white;
 
 <div class="pp-top">
 <div class="topnav" id="myTopnav">
-<a href="../../../" class="active"><img height="23px;" src="../../../favicon1.png" alt="PooriPadhai Logo"></a>
-  <a href="../../../">Home</a>
+<a href="../../../" class="active" title="PooriPadhai Logo Link"><img height="23px;" src="../../../favicon1.png" title="PooriPadhai Logo" alt="PooriPadhai Logo"></a>
+  <a href="../../../" title="PooriPadhai Home Page">Home</a>
   <div class="dropdown">
     <button class="dropbtn">Courses 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="../../../computer-courses/html-tutorial/">HTML Tutorial</a>
+      <a href="../../../computer-courses/html-tutorial/" title="HTML Tutorial">HTML Tutorial</a>
     </div>
   </div>  
   <div class="dropdown">
@@ -237,16 +237,16 @@ color:white;
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="../../../online-test/programming-language/c/c.html">C Programming</a>
-      <a href="../../../online-test/programming-language/c++/c++.html">C++ Programming</a>
-      <a href="../../../online-test/programming-language/css/css.html">CSS Programming</a>
-      <a href="../../../online-test/programming-language/java/java.html">Java Language</a>
-      <a href="../../../online-test/programming-language/javascript/javascript.html">JavaScript Language</a>
-      <a href="../../../online-test/programming-language/php/php.html">PHP Programming</a>
-      <a href="../../../online-test/programming-language/python/python.html">Python Programming</a>
+      <a href="../../../online-test/programming-language/c/c.html" title="C Programming Online Test">C Programming</a>
+      <a href="../../../online-test/programming-language/c++/c++.html" title="C Programming Online Test">C++ Programming</a>
+      <a href="../../../online-test/programming-language/css/css.html" title="CSS Programming Online Test">CSS Programming</a>
+      <a href="../../../online-test/programming-language/java/java.html" title="Java Language Online Test">Java Language</a>
+      <a href="../../../online-test/programming-language/javascript/javascript.html" title="JavaScript Language Online Test">JavaScript Language</a>
+      <a href="../../../online-test/programming-language/php/php.html" title="PHP Programming Online Test">PHP Programming</a>
+      <a href="../../../online-test/programming-language/python/python.html" title="Python Programming Online Test">Python Programming</a>
     </div>
   </div> 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive_navigation()">&#9776;</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive_navigation()" title="Mobile Responsive Navigation Icon">&#9776;</a>
 </div>
 </div>
 
@@ -263,7 +263,7 @@ var no_of_questions=10;
 var time_limit_in_secs=600;
 var questions=[
 "Identify from the following which value is supposed to be a slightly bolder weight in font attribute?",
-"Identify from the following which property allows the spaces between the c",
+"Identify from the following which property allows the spaces between the characters in a text?",
 "Identify from the following which is not a value for the font-style property?",
 "Identify from the following which value specifies whether the user agent is allowed to synthesize oblique or bold font faces when a font family lacks bold or italic faces?",
 "Identify from the following which is used to selects a normal, or small-caps face from a font family?",
@@ -311,6 +311,60 @@ var explanation=[
 ];
 </script>
 
+<noscript>
+// JavaScript Document
+var no_of_questions=10;
+var time_limit_in_secs=600;
+var questions=[
+"Identify from the following which value is supposed to be a slightly bolder weight in font attribute?",
+"Identify from the following which property allows the spaces between the characters in a text?",
+"Identify from the following which is not a value for the font-style property?",
+"Identify from the following which value specifies whether the user agent is allowed to synthesize oblique or bold font faces when a font family lacks bold or italic faces?",
+"Identify from the following which is used to selects a normal, or small-caps face from a font family?",
+"Identify from the following which is not an appropriate value for the font-variant property?",
+"Identify from the following which property adjusts the font-size of the fallback fonts defined with font-family so that the x-height is the same no matter what font is used?",
+"Identify from the following which allows you to expand or condense the widths for a normal, condensed, or expanded font face?",
+"Identify from the following which font-size-adjust is the value used in calculating the size of the fallback fonts?",
+"'In font attribute, font-style comes first and than font-weight'.State true or false.",
+];
+var option=[
+"lighter","dark","emphasize","light",
+"font-style","font-variant","font-family","font-kerning",
+"oblique","italic","normal","none of the above",
+"font-weight","font-kerning","font-synthesis","font-variant",
+"font-variant","font-synthesis","font-kerning","font-weight",
+"default","inherit","small-caps","large-caps",
+"font-size-adjust","font-adjust","font-size-fallback","default",
+"font-style","font-expand","font-stretch","none of the mentioned",
+"count","auto","number","none",
+"False","True","Both","none"
+];
+var correct_option=[
+"A",
+"D",
+"D",
+"C",
+"A",
+"D",
+"A",
+"D",
+"C",
+"A"
+];
+var explanation=[
+"lighter gives the lighter characters and makes the font slightly bolder.",
+"Kerning defines the space between the letters.",
+"oblique, italic and as well as normal are used as a value for font-style property.",
+"font-synthesis property controls which are the missing typefaces, bold or italic which may be synthesized by the browser. Fonts used for Chinese, Japanese, Korean and other logographic scripts tend not to include these variants.",
+"font-variant as its name self-explain the meaning variant of fonts.",
+"In font-variant there is no value for large-caps as we use uppercase or capitalize for letters.",
+"font-size-adjust property gives developers the ability to set the font-size of an element depending on the size of its lowercase letters, rather than the uppercase letters.",
+"None of the above mention do all. font-stretch can do some of the part but not all.",
+"The specified number is usually the aspect ratio of the first-choice font.",
+"It is not a correct statement because the correct Syntax is stated as:<br>font: font-weight font-style font-variant font-size/line-height font-family",
+];
+</noscript>
+
 <!--CODE: TO WRITE SHORT DETALILS (END)-->
 
 <div>
@@ -339,6 +393,8 @@ var explanation=[
             <br />
         </div>
     </div>
+
+<p class="pp-container" style="margin-top:50px; font-size:.9em">This CSS Fonts Online Test helps you to Boost your Knowledge in CSS. In this test we will cover the questions like "How to give slight border in font", "How to allow more than one white spaces between the characters", "Font style property", "Bold and Oblique font faces", "Normal and small caps font family", "Font Variant property", "Fall back fonts", "Expanded, Condensed and Normal Fonts", "How to calculate the size of fallback fonts" and lots more thing of CSS Fonts.</p>		
 
 </div>
 <!--CODE: PAGE1 INSTRUCTIONS(END)-->
@@ -463,7 +519,7 @@ document.getElementById('id01').style.display='block';
 <div class="pp-container" id="question_container" style="margin-top:100px;">
 <div class="pp-container pp-card-4 pp-round-large pp-padding">
 
-<div class="pp-center pp-text-light-green h1_like"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Fonts Online Test</div>
+<h2 class="pp-center pp-text-light-green h1_like"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Fonts Online Test</h2>
 
 
 
@@ -554,9 +610,9 @@ document.getElementById('id01').style.display='block';
   <div class="pp-panel pp-white pp-card-4" style="margin-top:-20px; border-radius: 0px 0px 7px 7px;">
   
   
-<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-introduction-online-test.html" target="_blank" title="CSS Introduction Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Introduction</a></div>
-<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-functions-online-test.html" target="_blank" title="CSS Functions Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Functions</a></div>
-<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-fonts-online-test.html" target="_blank" title="CSS Fonts Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Fonts</a></div>
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-introduction-online-test.html" target="_blank" title="CSS Introduction Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Introduction</a></div>
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-functions-online-test.html" target="_blank" title="CSS Functions Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Functions</a></div>
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-fonts-online-test.html" target="_blank" title="CSS Fonts Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Fonts</a></div>
 
 
   </div>
@@ -566,8 +622,8 @@ document.getElementById('id01').style.display='block';
   
   
 <div style="margin-top:20px;" class="pp-center">
-	<a href="../../../online-test/programming-language/css/css.html"><button type="button" class="pp-btn pp-padding pp-round-medium pp-hover-light-gray pp-text-white" style="background-color:#337ab7;">Back to CSS Online Test</button></a>
-</div>  
+	<a href="../../../online-test/programming-language/css/css.html" title="CSS Online Test"><button type="button" class="pp-btn pp-padding pp-round-medium pp-hover-light-gray pp-text-white" style="background-color:#337ab7;">Back to CSS Online Test</button></a>
+</div>   
   
 </div>  
 
