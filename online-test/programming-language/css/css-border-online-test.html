@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Border Online Test | Boost your Knowledge in CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Test your ability in CSS Border to give Free Online Test (Quiz). In this test, we will cover the questions like 'border shorthand property', 'width, style, and color of the border', 'table cell border', 'border-collapse and border-spacing' and lots more thing.">
+<link rel="SHORTCUT ICON" href="../../../favicon.png">
+<link rel="stylesheet" href="../../../css/pp-css.css">
+<link rel="stylesheet" href="../../../css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--Navigation Style-->
+<style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #30add1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active {
+  color: white;
+  font-size:16px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+<!--Navigation Style End-->
+
+<!--Body CSS Start--->
+<style>
+body {font-family: Geneva, 'Open Sans',"Roboto", sans-serif;}
+.pp-theme {color:#fff !important; background-color:#30add1 !important}
+.pp-pooripadhai {color:#fff!important;background-color:#30add1!important}
+.pp-text-pooripadhai {color:#30add1!important}
+
+
+h1 
+{
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px!important;
+    }
+}
+
+.h1_like 
+{
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .h1_like {
+        font-size: 20px!important;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+	color:#30add1;
+	font-size:105%;
+}
+</style>
+<!--Body CSS End--->
+
+<!--Quiz Oriented CSS Start--->
+<style>
+
+#p2, #p3, #p5, #p6
+{
+	display:none;
+}
+
+.q_ans
+{
+	display:-webkit-inline-box !important;
+	margin-top:-90px;
+}
+.q_ans_radio
+{
+	width:18px !important;
+	height:18px !important;
+	top:4px !important;
+}
+
+.q_ans_submit
+{
+	width:100%;
+	border:dotted 2px #C0C0C0;
+}
+
+
+/*Change pp-css*/
+
+input[type=checkbox].pp-check,input[type=radio].change-pp-radio{width:24px;height:24px;position:relative;top:6px}
+input[type=checkbox].pp-check:checked+.pp-validate,input[type=radio].change-pp-radio:checked+.pp-validate{color:#4CAF50} 
+input[type=checkbox].pp-check:disabled+.pp-validate,input[type=radio].change-pp-radio:disabled+.pp-validate{color:#aaa}
+
+
+#timer_location
+{
+position: fixed; right: 0; top:50px;
+}
+
+@media only screen and (max-width: 600px) {
+#timer_location
+{
+position: fixed; right: 0; bottom:1px; top:auto;
+}
+}
+
+#set_percentage
+{
+background-color:#30add1;
+color:white;
+}
+
+</style>
+<!--Quiz Oriented CSS End--->
+</head>
+
+<body>
+
+<div class="pp-top">
+<div class="topnav" id="myTopnav">
+<a href="../../../" class="active" title="PooriPadhai Logo Link"><img height="23px;" src="../../../favicon1.png" title="PooriPadhai Logo" alt="PooriPadhai Logo"></a>
+  <a href="../../../" title="PooriPadhai Home Page">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Courses 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../../../computer-courses/html-tutorial/" title="HTML Tutorial">HTML Tutorial</a>
+    </div>
+  </div>  
+  <div class="dropdown">
+    <button class="dropbtn">Online Test 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../../../online-test/programming-language/c/c.html" title="C Programming Online Test">C Programming</a>
+      <a href="../../../online-test/programming-language/c++/c++.html" title="C Programming Online Test">C++ Programming</a>
+      <a href="../../../online-test/programming-language/css/css.html" title="CSS Programming Online Test">CSS Programming</a>
+      <a href="../../../online-test/programming-language/java/java.html" title="Java Language Online Test">Java Language</a>
+      <a href="../../../online-test/programming-language/javascript/javascript.html" title="JavaScript Language Online Test">JavaScript Language</a>
+      <a href="../../../online-test/programming-language/php/php.html" title="PHP Programming Online Test">PHP Programming</a>
+      <a href="../../../online-test/programming-language/python/python.html" title="Python Programming Online Test">Python Programming</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive_navigation()" title="Mobile Responsive Navigation Icon">&#9776;</a>
+</div>
+</div>
+
+<!-- Page content -->
+<div style="margin-top:52px">
+
+
+
+
+<!--CODE: TO WRITE SHORT DETALILS (START)-->
+<script >
+// JavaScript Document
+var no_of_questions=10;
+var time_limit_in_secs=600;
+var questions=[
+"Identify the property that is used to define in a shorthand form the width, style, and color for the bottom border of an element?",
+"Identify the property that is used to sets the width of an element’s bottom border?",
+"Identify the property that is used to define whether table cell borders are separate or connected?",
+"Identify the property that is used to define the style for the right border of an element?",
+"Identify the property that is used to define the color of an element’s top border?",
+"Identify the property that is used to sets the width of an element’s complete border?",
+"Identify the property that is used to define the visual style of up to four different sides of a border?",
+"Identify the following that is used to define in a shorthand form the width, style, and color for the top border of an element?",
+"Identify the property that is used to define the y (vertical) coordinate for a positioned element, relative to the bottom of the enclosing object or browser window?",
+"Identify the property that is used to specify the placement of an element in relation to floating objects?"
+];
+var option=[
+"border-bottom","border-bottom-all","border-bottom-color","none of the mentioned",
+"border-bottom-width","border-collapse","border","none of the mentioned",
+"border","border-collapse","border-table","border-table",
+"border-spacing","border-left","border-right","border-right-style",
+"border-top","border-color","border-top-color","border-top-color-webkit",
+"width","border-depth","border-width","none of the mentioned",
+"border","border-top","border-style","none of the mentioned",
+"border-up","border-style","border-bottom","none of the mentioned",
+"bottom","border","position","none of the mentioned",
+"space","color","color","none of the mentioned"
+];
+var correct_option=[
+"border-bottom",
+"border-bottom-width",
+"border-collapse",
+"border-right",
+"border-top-color",
+"border-width",
+"border-style",
+"none of the mentioned",
+"bottom",
+"clear"
+];
+var explanation=[
+"border-bottom always sets the values of all of the properties that it can set, even if they are not specified. Syntax-border-bottom: border-width border-style border-color;.",
+"The border-bottom-width property is used to set the width of the bottom border of an element. The width of the border can be explicitly set using a <length> value, or by using one of three border width keywords: thin, medium, and thick. Syntax- border-bottom-width: non-negative length | medium | thick | thin | inherit.",
+"border-collapse specified that the table cells are collapse or not. Syntax - border-collapse: collapse | separate | inherit",
+"Syntax used border-right-style: dashed | dotted | double.",
+"border-top-color has specified the color of the top border.Syntax used border-top-color: color | transparent | inherit.",
+"The width of the border of a box, around the content and padding areas and before the margin area.",
+"border-style can be style different ways like all four borders same value, two border same value, three have the same value and all four have the different value.Syntax- border-style: style",
+"border attribute is used for the shorthand property of border width, style, and color. <br>Like : border: 5px solid red;",
+"Syntax- bottom: length | percentage | auto | inherit",
+"clear is used to specify the placement of an element. Syntax- clear: both | left | none | right"
+];
+</script>
+<noscript>
+// JavaScript Document
+var no_of_questions=10;
+var time_limit_in_secs=600;
+var questions=[
+"Identify the property that is used to define in a shorthand form the width, style, and color for the bottom border of an element?",
+"Identify the property that is used to sets the width of an element’s bottom border?",
+"Identify the property that is used to define whether table cell borders are separate or connected?",
+"Identify the property that is used to define the style for the right border of an element?",
+"Identify the property that is used to define the color of an element’s top border?",
+"Identify the property that is used to sets the width of an element’s complete border?",
+"Identify the property that is used to define the visual style of up to four different sides of a border?",
+"Identify the following that is used to define in a shorthand form the width, style, and color for the top border of an element?",
+"Identify the property that is used to define the y (vertical) coordinate for a positioned element, relative to the bottom of the enclosing object or browser window?",
+"Identify the property that is used to specify the placement of an element in relation to floating objects?"
+];
+var option=[
+"border-bottom","border-bottom-all","border-bottom-color","none of the mentioned",
+"border-bottom-width","border-collapse","border","none of the mentioned",
+"border","border-collapse","border-table","border-table",
+"border-spacing","border-left","border-right","border-right-style",
+"border-top","border-color","border-top-color","border-top-color-webkit",
+"width","border-depth","border-width","none of the mentioned",
+"border","border-top","border-style","none of the mentioned",
+"border-up","border-style","border-bottom","none of the mentioned",
+"bottom","border","position","none of the mentioned",
+"space","color","color","none of the mentioned"
+];
+var correct_option=[
+"border-bottom",
+"border-bottom-width",
+"border-collapse",
+"border-right",
+"border-top-color",
+"border-width",
+"border-style",
+"none of the mentioned",
+"bottom",
+"clear"
+];
+var explanation=[
+"border-bottom always sets the values of all of the properties that it can set, even if they are not specified. Syntax-border-bottom: border-width border-style border-color;.",
+"The border-bottom-width property is used to set the width of the bottom border of an element. The width of the border can be explicitly set using a <length> value, or by using one of three border width keywords: thin, medium, and thick. Syntax- border-bottom-width: non-negative length | medium | thick | thin | inherit.",
+"border-collapse specified that the table cells are collapse or not. Syntax - border-collapse: collapse | separate | inherit",
+"Syntax used border-right-style: dashed | dotted | double.",
+"border-top-color has specified the color of the top border.Syntax used border-top-color: color | transparent | inherit.",
+"The width of the border of a box, around the content and padding areas and before the margin area.",
+"border-style can be style different ways like all four borders same value, two border same value, three have the same value and all four have the different value.Syntax- border-style: style",
+"border attribute is used for the shorthand property of border width, style, and color. <br>Like : border: 5px solid red;",
+"Syntax- bottom: length | percentage | auto | inherit",
+"clear is used to specify the placement of an element. Syntax- clear: both | left | none | right"
+];
+</noscript>
+
+<!--CODE: TO WRITE SHORT DETALILS (END)-->
+
+<div>
+
+<!--CODE: PAGE1 INSTRUCTIONS (START)-->
+<div id="p1" class="" style="margin-top:90px;">
+<h1 class="pp-center pp-text-light-green"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Border Online Test</h1>
+
+	<div class="pp-container pp-content pp-card pp-light-gray pp-round-large pp-margin-top">
+    	<div class="pp-panel pp-border pp-round-large pp-white">
+        	<div class="pp-container pp-text-blue-gray">
+    			<div class="pp-xlarge pp-text-orange pp-margin-top"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Instructions:</u></b></div>
+                <div class="pp-leftbar pp-round-xlarge pp-border-blue-grey">
+                    <ul>
+                        <li class="pp-padding-12">Total number of questions : <b>10</b>.</li>
+                        <li class="pp-padding-12">Time alloted : <b>10</b> minutes.</li>
+                        <li class="pp-padding-12">Each question carry <b>1</b> mark.</li>
+                        <li class="pp-padding-12"><b>No Negative</b> marks</li>
+						<li class="pp-padding-12"><b>DO NOT</b> refresh the page.</li>
+                        <li class="pp-padding-12">All the best :-)</li>
+                    </ul>
+                </div>
+                <br />
+                <button class="pp-btn pp-text-white pp-pooripadhai pp-border pp-round-large pp-hover-light-gray pp-center" id="button_margin" onclick="starttest()">Start Test</button>
+            </div>
+            <br />
+        </div>
+    </div>
+
+<p class="pp-container" style="margin-top:50px; font-size:.9em">Test your ability in CSS Border to give Free Online Test (Quiz). In this test, we will cover the questions like 'border shorthand property', 'width, style, and color of the border', 'table cell border', 'border-collapse and border-spacing' and lots more thing.</p>	
+	
+</div>
+
+
+<!--CODE: PAGE1 INSTRUCTIONS(END)-->
+
+</div>
+
+<!--page 3 Marks Calculation-->
+<!--CODE: RESULT(START)-->
+<div id="p3" class="pp-container">
+
+
+	
+	
+	
+<!-------------------------------------------------------------------------------->
+
+
+
+  <div id="id01" class="pp-modal">
+    <div class="pp-modal-content">
+	
+	      <header class="pp-container pp-theme"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="pp-button pp-display-topright ">&times;</span>
+        <h3 class="pp-center">Analysis Of Test</h3>
+      </header>
+	  
+<div class="pp-container">	  
+<div class="box-title" style="font-size:20px; font-weight:400;margin:10px 0"> Percentage:</div>
+
+<div class="pp-light-grey pp-round-xlarge">
+<div class="pp-container pp-round-xlarge pp-text-white" id="set_percentage" style="width:0%"><span id="show_percentage"></span></div>
+</div>
+
+</div>	  
+	  
+ 		
+
+<div class="pp-container pp-half pp-margin-top">      
+<div class="pp-container pp-card-4 pp-round-large">
+          
+<div class="box-title pp-text-blue" style="font-size:24px; font-weight:400;margin:10px 0"><i class="fa fa-tags" aria-hidden="true"></i> No. of Questions:</div><br>
+<div class="pp-text-blue" style="font-size:30px; font-weight:400;margin:10px 0"><b><span id="no_of_questions"></span></b></div>          
+
+</div>
+</div>
+
+
+
+<div class="pp-container pp-half pp-margin-top">
+<div class="pp-container pp-card-4 pp-round-large">
+          
+<div class="box-title pp-text-green" style="font-size:24px; font-weight:400;margin:10px 0"><i class="fa fa-tags" aria-hidden="true"></i> No. of Answered Questions: </div><br>
+<div class="pp-text-green" style="font-size:30px; font-weight:400;margin:10px 0"><b><span id="answered_question"></span></b></div>
+  
+</div>
+</div>
+
+
+
+<div class="pp-container pp-half pp-margin-top">
+<div class="pp-container pp-card-4 pp-round-large">
+          
+<div class="box-title pp-text-red" style="font-size:24px; font-weight:400;margin:10px 0"><i class="fa fa-tags" aria-hidden="true"></i> No. of Unanswered Questions:</div><br>
+<div class="pp-text-red" style="font-size:30px; font-weight:400;margin:10px 0"><b><span id="unanswered_question"></b></div>
+  
+</div>
+</div>
+
+
+
+<div class="pp-container pp-half pp-margin-top">
+<div class="pp-container pp-card-4 pp-round-large">
+          
+<div class="box-title pp-text-orange" style="font-size:24px; font-weight:400;margin:10px 0"><i class="fa fa-tags" aria-hidden="true"></i> Marks: </div><br>
+<div class="pp-text-orange" style="font-size:30px; font-weight:400;margin:10px 0"><b><span id="marks"></span></b></div>
+  
+</div>
+</div>
+
+
+      <center class="pp-container">
+    <button onclick="document.getElementById('id01').style.display='none'" class="pp-button pp-section pp-ripple pp-text-white pp-round-medium" style="background-color:#337ab7;" name="submit_item_consumed">See The Explanation</button></center>	
+		
+	
+	  
+	  
+	  
+	  
+	  
+    </div>
+  </div>
+  
+  <script>
+document.getElementById('id01').style.display='block';
+</script>
+
+
+<!-------------------------------------------------------------------------------------------------------->  
+	
+	
+	
+	
+	
+	
+	
+</div>
+<!--CODE: RESULT(START)-->
+
+
+<!--page 2-->
+<div id="p2">
+
+
+
+<div id="timer_location">
+<div class="pp-tag pp-red pp-large" id="timer">
+    	<b id="showtime"></b>
+</div>
+</div>
+
+<div class="pp-container" id="question_container" style="margin-top:100px;">
+<div class="pp-container pp-card-4 pp-round-large pp-padding">
+
+<h2 class="pp-center pp-text-light-green h1_like"><span style="font-family:Trebuchet MS; font-size:1.15em; font-weight:700;">CSS Border Online Test</span></h2>
+
+
+
+	<!--CODE: QUESTIONS (START)-->
+	<table class="pp-table q_ans" style="margin-top:20px;">
+    	
+        <!--Question1 Body Begins-->
+        <script>
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			document.write(""+
+        		"<tbody id='removehover"+i+"'>"+
+    				"<tr><!--Q1 Begins-->"+
+        				"<td><b>"+i+". </b></td>"+
+            			"<td id='question"+i+"'></td>"+
+       				"</tr>"+
+       				"<!--Q1 Question Ends-->"+
+       				"<tr><!--Q1 Options Begins-->"+
+       					"<td></td>"+
+            			"<td>"+
+            				"<form name='q"+i+"'>"+
+            					"<input class='change-pp-radio q_ans_radio' type='radio' name='ans_selected' value='A' /> A. "+
+            					"<label class='pp-validate' id='q"+i+"_1'></label><br />"+
+            					"<input class='change-pp-radio q_ans_radio' type='radio' name='ans_selected' value='B' /> B. "+
+            					"<label class='pp-validate' id='q"+i+"_2'></label><br />"+
+                				"<input class='change-pp-radio q_ans_radio' type='radio' name='ans_selected' value='C' /> C. "+
+            					"<label class='pp-validate' id='q"+i+"_3'></label><br />"+
+                				"<input class='change-pp-radio q_ans_radio' type='radio' name='ans_selected' value='D' /> D. "+
+            					"<label class='pp-validate' id='q"+i+"_4'></label>"+
+            				"</form>"+
+            			"</td>"+
+       				"</tr><!--Q1 Options Begins-->"+
+       				"<tr>"+
+       					"<td></td>"+
+            			"<td>"+
+            				"<div class='pp-leftbar pp-round-xlarge pp-border-blue-grey pp-container show_ans_after_submit'>"+
+            					"<p><span class='pp-text-teal'>Your Answer: </span>Option <span id='q_ans_your_ans_q"+i+"'></span></p>"+
+                				"<p><span class='pp-text-teal'>Correct Answer: </span>Option <span id='q_ans_correct_ans_q"+i+"'></span></p>"+
+                				"<p><span class='pp-text-teal'>Explanation:<br /></span><span id='q"+i+"_explanation'></span></p>"+
+            				"</div>"+
+            			"</td>"+
+       				"</tr>"+
+       			"</tbody>"+
+			"");
+			
+		}
+	   </script>
+       <!--Question1 Body Ends-->
+    
+    </table>
+    <!--CODE: QUESTIONS (END)-->
+    <br /><br />
+	
+	<div id="p5">	
+	
+	<div class="q_ans_submit pp-center">
+	<br />
+	<button type="button" class="pp-btn pp-padding pp-text-white pp-hover-light-gray pp-round-medium" style="background-color:#337ab7;" onclick="document.getElementById('id01').style.display='block'">View Result</button>
+	<br /><br />
+</div>
+
+
+
+</div> 
+
+	
+	<div id="p4">
+    
+<div class="q_ans_submit pp-center">
+	<br />
+	<button type="button" class="pp-btn pp-padding pp-text-white pp-hover-light-gray pp-round-medium"  style="background-color:#337ab7;" onclick='confirmSubmit();'>Submit  ❯</button>
+	<br /><br />
+</div> 
+
+ </div>
+ 
+</div>
+</div>
+
+	<div id="p6">	
+
+<div class="pp-container pp-margin-top">
+
+  <div class="pp-panel pp-pooripadhai pp-card-4" style="border-radius: 7px 7px 0px 0px;">
+    <h6 class="pp-center">Try More: Boost Your Knowledge</h6>
+  </div>
+
+  <div class="pp-panel pp-white pp-card-4" style="margin-top:-20px; border-radius: 0px 0px 7px 7px;">
+  
+  
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-introduction-online-test.html" target="_blank" title="CSS Introduction Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Introduction</a></div>
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-functions-online-test.html" target="_blank" title="CSS Functions Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Functions</a></div>
+<div class="pp-third pp-text-blue" style="font-size:16px; font-weight:400;margin:10px 0"><a href="css-fonts-online-test.html" target="_blank" title="CSS Fonts Online Test"><img height="28" width="28" src="../../../online-test/image/pooripadhai-test.png" title="Pooripadhai Quiz Logo" alt="Pooripadhai Quiz Logo">&nbsp;&nbsp; CSS Fonts</a></div>
+  
+  
+  </div>
+
+  </div>
+
+  
+  
+<div style="margin-top:20px;" class="pp-center">
+	<a href="../../../online-test/programming-language/css/css.html" title="CSS Online Test"><button type="button" class="pp-btn pp-padding pp-round-medium pp-hover-light-gray pp-text-white" style="background-color:#337ab7;">Back to CSS Online Test</button></a>
+</div>  
+  
+</div>  
+
+
+<div style="margin-top:100px; margin-bottom:-23px;">
+	<!--Footer-->
+<script src="http://www.pooripadhai.com/js/footer.js"></script>
+</div>	
+
+<br />
+</div>
+
+
+
+
+
+</div>
+
+
+<script>
+// Confirm Submit
+function confirmSubmit()
+{
+		var unanswered_question_check=0;
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			q_check="q"+i;
+			a_check=document.forms[q_check]["ans_selected"].value;
+			if(a_check==""){unanswered_question_check++;}
+		}
+
+if(unanswered_question_check==0)
+{
+var result = confirm("Are you sure you want to submit the Test now?");
+}
+else
+{
+var result = confirm("Total number of unanswered questions ="+unanswered_question_check+"\n\n Are you sure you want to submit the Test now?");
+}		
+
+if (result) {
+   q_ans_submit();
+}
+}
+</script>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("pp-show") == -1) {
+        x.className += " pp-show";
+    } else { 
+        x.className = x.className.replace("pp-show", "");
+    }
+}
+</script>
+
+
+<script>
+
+	function q_ans_submit()
+	{
+		clearInterval(x);
+		document.getElementById("p3").style.display="block";
+		document.getElementById("p4").style.display="none";
+		document.getElementById("p5").style.display="block";
+		document.getElementById("p6").style.display="block";
+		
+		//CODE: removing hover after submitting the form (START)
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			var element = document.getElementById("removehover"+i);
+   			element.classList.remove("pp-hover-light-gray");
+		}
+		//CODE: removing hover after submitting the form (END)
+		
+		
+		//set all radio button to inactive
+		var no_of_radio_buttons=no_of_questions*4;
+		for(var i=0; i<no_of_radio_buttons; i++) document.getElementsByClassName("q_ans_radio")[i].disabled = true;
+		
+		
+		//CODE: showing your Answer and Correct Answer (START)
+		var q="q";
+		var q_ans_your_ans_q="q_ans_your_ans_q";
+		var q_ans_correct_ans_q="q_ans_correct_ans_q";
+		var a="";
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			q="q"+i;
+			q_ans_your_ans_q="q_ans_your_ans_q"+i;
+			q_ans_correct_ans_q="q_ans_correct_ans_q"+i;
+			a=document.forms[q]["ans_selected"].value;
+			if(a=="")
+			{
+				document.getElementById(q_ans_your_ans_q).innerHTML="<span class='pp-text-red'>(Not Answered)</span>";
+			}else
+			{
+				if(a==document.getElementById(q_ans_correct_ans_q).innerHTML)
+				{
+					document.getElementById(q_ans_your_ans_q).innerHTML=a+" &#x2705;";
+				}else
+				{
+					document.getElementById(q_ans_your_ans_q).innerHTML=a+" &#x274C;";
+				}
+			}
+		}
+		//CODE: showing your Answer and Correct Answer (END)
+		
+		
+		//CODE: calculating and showing your Answered and Unanswered Questions(START)
+		var q="q";
+		var a="";
+		var answered_question=0;
+		var unanswered_question=0;
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			q="q"+i;
+			a=document.forms[q]["ans_selected"].value;
+			if(a==""){unanswered_question++;}else{answered_question++;}
+		}
+		document.getElementById("answered_question").innerHTML=answered_question;
+		document.getElementById("unanswered_question").innerHTML=unanswered_question;
+		//CODE: calculating and showing your Answered and Unanswered Questions (END)
+		
+		
+		
+		//CODE: For calculating and displaying Marks & Percentage (START)
+		var q="q";
+		var q_ans_your_ans_q="q_ans_your_ans_q";
+		var q_ans_correct_ans_q="q_ans_correct_ans_q";
+		var a="";
+		var b="get";
+		var marks=0;
+		var percentage="";
+		for(var i=1;i<=no_of_questions;i++)
+		{
+			q="q"+i;
+			q_ans_your_ans_q="q_ans_your_ans_q"+i;
+			q_ans_correct_ans_q="q_ans_correct_ans_q"+i;
+			b="get";
+			a=document.forms[q]["ans_selected"].value;
+			b=document.getElementById(q_ans_correct_ans_q).innerHTML;
+			if(a==b){marks++;}
+		}
+		percentage=(marks*100)/no_of_questions;
+		document.getElementById("marks").innerHTML=marks+"/"+no_of_questions;
+		document.getElementById("show_percentage").innerHTML=percentage+"%";
+		document.getElementById("set_percentage").style.width=percentage+"%";
+		
+		if(percentage<=25)
+		{
+		document.getElementById("set_percentage").style.backgroundColor = "red";
+		document.getElementById("set_percentage").style.color = "white";
+		}
+		if((percentage>25)&&(percentage<=50))
+		{
+		document.getElementById("set_percentage").style.backgroundColor = "#e91e63";
+		document.getElementById("set_percentage").style.color = "white";
+		}
+		if((percentage>75)&&(percentage<=100))
+		{
+		document.getElementById("set_percentage").style.backgroundColor = "green";
+		document.getElementById("set_percentage").style.color = "white";
+		}
+		//CODE: For calculating and displaying Marks & Percentage (END)
+		
+		//set class 'show_ans_after_submit' to block
+		for(var i=0; i<no_of_questions; i++) document.getElementsByClassName("show_ans_after_submit")[i].style.display="block";
+		
+		move_percentage_bar(percentage);
+		move_answered_question_bar(answered_question);
+		move_unanswered_question_bar(unanswered_question);
+		
+		document.getElementById("question_container").style.marginTop="40px";
+		
+		topScrollFunction();
+		
+		
+	}
+</script>
+
+
+<script>
+
+	//set class 'show_ans_after_submit' to none
+	for(var i=0; i<no_of_questions; i++) document.getElementsByClassName("show_ans_after_submit")[i].style.display="none";
+
+	function starttest()
+	{
+		document.getElementById("p1").style.display="none";
+		document.getElementById("p2").style.display="block";
+		document.getElementById("settimervalue").value=time_limit_in_secs;
+		document.getElementById("no_of_questions").innerHTML=no_of_questions;
+		
+		//CODE: Putting questions (START)
+		var question="question";
+		var i=0;
+		var i_inc=i+1; //we initalize this variable because we have to again and again adding +1 to i .
+		var j=0;
+		var q="q1_";
+		for(i=0;i<no_of_questions;i++)
+		{
+			i_inc=i+1;
+			for(j=0;j<4;j++)
+			{
+				q="q"+i_inc+"_"+(j+1);
+				document.getElementById(q).innerHTML=option[(i*4)+j];//putting options
+			}
+			document.getElementById("question"+i_inc).innerHTML=questions[i];//putting questions
+			document.getElementById("q_ans_correct_ans_q"+i_inc).innerHTML=correct_option[i];//putting correct answers
+			document.getElementById("q"+i_inc+"_explanation").innerHTML=explanation[i];//putting explanations
+		}		
+		//CODE: Putting questions (END)
+	}
+</script>
+
+
+
+<!--starting of writing timer-->
+<input type="text" id="settimervalue" value="-1" style="display:none !important" />
+<script>
+var x = setInterval("timer()", 1000);
+
+
+//CODE: timer function (START)
+function timer()
+{
+		
+	
+var e=document.getElementById("settimervalue").value;
+var d=parseInt(e);
+var hours = (d % (60 * 60 * 24)) / (60 * 60); 
+var minutes = (d % (60 * 60)) / (60);
+var seconds = (d % (60));
+
+hours = parseInt(hours);
+minutes = parseInt(minutes);
+
+var hr=hours.toString();
+var mins=minutes.toString();
+var sec=seconds.toString();
+		if(hr.length == 1) {hr = '0' + hr;} 
+       if(mins.length  == 1) {mins  = '0' + mins;} 
+       if(sec.length  == 1) {sec  = '0' + sec;}
+    document.getElementById("showtime").innerHTML ="Time Left: "+hr+":"+mins+":"+sec;
+d=d-1;
+document.getElementById("settimervalue").value=d;
+
+if(d==-1)
+	{
+		clearInterval(x);
+		alert("Time Out!!!---> Let's see the scores");
+		q_ans_submit();
+	}
+
+}
+</script>
+<!--End of writing timer-->
+
+<!--Result Analysis Animation-->
+<script>
+function move_percentage_bar(percentage) {
+  var elem = document.getElementById("set_percentage");   
+  var width = 20;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= percentage) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+    
+function move_answered_question_bar(answered_question) {
+  var elem = document.getElementById("answered_question");   
+  var number = 0;
+  var id = setInterval(frame, 120);
+  function frame() {
+    if (number >= answered_question) {
+      clearInterval(id);
+    } else {
+      number++; 
+      document.getElementById("answered_question").innerHTML = number * 1;
+    }
+  }
+}
+
+function move_unanswered_question_bar(unanswered_question) {
+  var elem = document.getElementById("unanswered_question");   
+  var number = 0;
+  var id = setInterval(frame, 120);
+  function frame() {
+    if (number >= unanswered_question) {
+      clearInterval(id);
+    } else {
+      number++; 
+      document.getElementById("unanswered_question").innerHTML = number * 1;
+    }
+  }
+}
+</script>
+<!--Result Analysis Animation End-->
+
+<script>
+// When the user clicks on the button, scroll to the top of the document
+function topScrollFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<script>
+function responsive_navigation() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+
+
+</body>
+</html>
