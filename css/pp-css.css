@@ -240,10 +240,3 @@ p {text-align: justify;}
 @media (min-width:601px){ 
 .pp-fifth{float:left;width:100%;width:19.99999%;padding:0 8px}
 }
-
-/* For Pdf*/
-.pdf
-{
-font-size:28px;
-color:red;	
-}
